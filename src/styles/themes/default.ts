@@ -32,4 +32,6 @@ export const defaultTheme = {
     'blue-200': '#c0c4fc',
     'blue-150': '#d8e0fb',
     'blue-100': '#eeeffc',
+
+    'purple-300': '#6d28d2',
 }
