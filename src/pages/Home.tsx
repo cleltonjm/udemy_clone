@@ -1,5 +1,6 @@
 import { BestSellers } from "../components/Best Sellers";
 import { Carousel } from "../components/Carousel";
+import { Features } from "../components/Features";
 import { Partner } from "../components/Partner";
 
 export function Home() {
@@ -8,6 +9,7 @@ export function Home() {
             <Carousel />
             <Partner />
             <BestSellers />
+            <Features />
         </div>
     )
 }
