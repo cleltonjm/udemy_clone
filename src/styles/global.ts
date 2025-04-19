@@ -14,6 +14,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         background: ${props => props.theme['gray-100']};
+        overflow-x: hidden;
 
         -webkit-font-smoothing: antialiased;
     }

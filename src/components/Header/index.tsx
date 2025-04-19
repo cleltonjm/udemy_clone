@@ -13,6 +13,8 @@ import logoImg from '../../assets/udemy-logo.png'
 import * as Dialog from "@radix-ui/react-dialog";
 import { LanguageModal } from "../LanguageModal";
 import { NavLink } from "react-router-dom";
+import { UdemyBusiness } from "../UdemyBusiness";
+import { TeachAtUdemy } from "../TeachAtUdemy";
 
 export function Header(){
     return (
@@ -31,13 +33,9 @@ export function Header(){
                 <option value="Pesquisa 3" />
             </datalist>
 
-            <TextContatiner>
-                Udemy Bussiness
-            </TextContatiner>
-            <TextContatiner>
-                Ensine na Udemy
-            </TextContatiner>
-
+            <UdemyBusiness />
+            <TeachAtUdemy />
+            
             <IconButtonContainer variant="no-border"><ShoppingCart size={20} /></IconButtonContainer>
 
             <NavLinkProps to="/sign-in">

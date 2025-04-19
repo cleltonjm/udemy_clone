@@ -15,6 +15,7 @@ export const HeaderContainer = styled.header`
 
     border-bottom: 1px solid transparent;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
 `;
 
 export const ImageContainer = styled.img`
@@ -116,5 +117,5 @@ export const IconButtonContainer = styled.button<ButtonVariantProps>`
 
 export const NavLinkProps = styled(NavLink)`
     text-decoration: none;
-     color: inherit;
+    color: inherit;
 `;

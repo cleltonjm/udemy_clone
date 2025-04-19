@@ -1,7 +1,17 @@
+import { 
+    ButtonsContainer, 
+    ButtonSlider, 
+    ButtonsListContainer, 
+    CarouselContainer, 
+    CoursesContainer, 
+    SliderContainer, 
+    TextContainer, 
+    CourseCard, 
+    Button 
+} from './styles'
 import carousel1 from '../../assets/carousel1.png'
-import { ButtonsContainer, ButtonSlider, ButtonsListContainer, CarouselContainer, CoursesContainer, SliderContainer, TextContainer, CourseCard, Button } from './styles'
 
-export function Carousel() {
+export function Carousel() {    
     return (
         <CarouselContainer>
             <img src={carousel1} alt="" />
