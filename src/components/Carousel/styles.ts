@@ -44,6 +44,7 @@ export const ButtonsContainer = styled.div`
 export const SliderContainer = styled.div`
     display: flex;
     flex-direction: column;
+    padding-bottom: 3rem;
 
     background: ${props => props.theme['gray-150']};
 `;
