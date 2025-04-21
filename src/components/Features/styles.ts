@@ -1,6 +1,8 @@
 import { styled } from "styled-components";
 
 export const FeaturesContainer = styled.div`
+    background: ${props => props.theme['gray-150']};
+
     h2 {
         font-size: 2rem;
         padding-top: 3rem;
@@ -28,6 +30,7 @@ export const Feature = styled.div`
     gap: 1rem;
     border-radius: 16px;
     border: 1px solid ${props => props.theme['gray-200']};
+    background: ${props => props.theme['gray-100']};
 
     &:hover {
         cursor: pointer;
