@@ -1,5 +1,6 @@
 import { BestSellers } from "../components/Best Sellers";
 import { Carousel } from "../components/Carousel";
+import { CaseStudy } from "../components/CaseStudy";
 import { Features } from "../components/Features";
 import { Partner } from "../components/Partner";
 import { Plans } from "../components/Plans";
@@ -18,6 +19,7 @@ export function Home() {
             <Testmonials />
             <Reports />
             <Trending />
+            <CaseStudy />
         </div>
     )
 }
