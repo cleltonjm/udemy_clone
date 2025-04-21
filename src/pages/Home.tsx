@@ -5,6 +5,7 @@ import { Partner } from "../components/Partner";
 import { Plans } from "../components/Plans";
 import { Reports } from "../components/Reports";
 import { Testmonials } from "../components/Testmonials";
+import { Trending } from "../components/Trending";
 
 export function Home() {
     return (
@@ -16,6 +17,7 @@ export function Home() {
             <Plans />
             <Testmonials />
             <Reports />
+            <Trending />
         </div>
     )
 }
