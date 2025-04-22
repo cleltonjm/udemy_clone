@@ -10,26 +10,36 @@ export const Content = styled(PopOver.Content)`
     box-shadow: 0 2px 10px ${props => props.theme['gray-200']};
 `;
 
-export const TextContiner = styled.span`
-    font-size: 0.875rem;
-    padding: 0.75rem;
-    border-radius: 10px;
+export const IconButtonContainer = styled.button<ButtonVariantProps>`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0.5rem;
+    border: 0;
+    border-radius: 4px;
+
     cursor: pointer;
-    color: ${props => props.theme['gray-500']};
+    background: ${props => props.theme['gray-100']};
 
     &:hover {
+        background: ${props => props.theme['blue-200']};
         color: ${props => props.theme['blue-300']};
-        background: ${props => props.theme['blue-200']};;
 
         transition: 0.15s;
     }
+
+    ${props => props.variant === 'no-border' && css`
+        border: 0;
+        background: ${props => props.theme['gray-100']};
+    `}
 `;
 
 export const PopOverProps = styled.div`
     width: 20rem;
     height: auto;
     padding: 2rem;
-    margin-top: 1.2rem;
+    margin-top: 1.4rem;
 
     display: flex;
     align-items: center;
@@ -45,8 +55,7 @@ export const PopOverProps = styled.div`
 
 export const LabelProps = styled.text`    
     font-size: 1rem;
-    font-weight: bold;
-    color: ${props => props.theme['gray-600']};
+    color: ${props => props.theme['gray-300']};
 `;
 
 export const ButtonContainer = styled.a<ButtonVariantProps>`
@@ -59,14 +68,13 @@ export const ButtonContainer = styled.a<ButtonVariantProps>`
     padding: 0.75rem;
     font-weight: 900;
     font-size: 0.8rem;
-
+    border: 0;
     color: ${props => props.theme['blue-350']};
-    border-color: ${props => props.theme['blue-350']};
 
     cursor: pointer;
 
     &:hover {
-        background: ${props => props.theme['blue-200']};
+        color: ${props => props.theme['purple-300']};
     }
 
     ${props => props.variant === 'secondary' && css`
@@ -74,7 +82,7 @@ export const ButtonContainer = styled.a<ButtonVariantProps>`
         color: ${props => props.theme['gray-100']};
 
         &:hover {
-            background: ${props => props.theme['purple-300']};;
+            background: ${props => props.theme['purple-300']};
 
             transition: 0.15s;
         }

@@ -22,21 +22,6 @@ export const ImageContainer = styled.img`
     width: 5rem;
 `;
 
-export const TextContatiner = styled.text`
-    font-size: 0.875rem;
-    padding: 0.75rem;
-    border-radius: 10px;
-    cursor: pointer;
-    color: ${props => props.theme['gray-500']};
-
-    &:hover {
-        color: ${props => props.theme['blue-300']};
-        background: ${props => props.theme['blue-200']};;
-
-        transition: 0.15s;
-    }
-`;
-
 export const SearchFormContainer = styled.input`
     flex: 1;
 

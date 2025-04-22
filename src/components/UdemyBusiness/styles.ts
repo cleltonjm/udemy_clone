@@ -1,9 +1,14 @@
 import { NavLink } from "react-router-dom";
 import { css, styled } from "styled-components";
+import * as PopOver from '@radix-ui/react-popover'
 
 interface ButtonVariantProps {
     variant?: 'secondary' | 'no-border';
 }
+
+export const Content = styled(PopOver.Content)`
+    box-shadow: 0 2px 10px ${props => props.theme['gray-200']};
+`;
 
 export const TextContiner = styled.span`
     font-size: 0.875rem;
@@ -24,7 +29,7 @@ export const PopOverProps = styled.div`
     width: 20rem;
     height: auto;
     padding: 2rem;
-    margin-top: 2rem;
+    margin-top: 1.2rem;
 
     display: flex;
     align-items: center;

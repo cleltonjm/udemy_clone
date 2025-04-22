@@ -5,6 +5,7 @@ import { SignUp } from './pages/SignUp'
 import { DefaultLayout } from './layouts/DefaultLayout'
 import { UdemyBusiness } from './pages/UdemyBusiness'
 import { LearnMore } from './pages/LearnMore'
+import { Cart } from './pages/Cart'
 
 export function Router() {
     return (
@@ -15,6 +16,7 @@ export function Router() {
                 <Route path="/sign-up" element={<SignUp />} />
                 <Route path="/learn-more" element={<LearnMore />} />
                 <Route path="/udemy-business" element={<UdemyBusiness />} />
+                <Route path="/cart" element={<Cart />} />
             </Route>
         </Routes>
     )

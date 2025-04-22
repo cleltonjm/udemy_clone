@@ -4,8 +4,7 @@ import {
     IconButtonContainer, 
     ImageContainer, 
     NavLinkProps, 
-    SearchFormContainer, 
-    TextContatiner 
+    SearchFormContainer 
 } from "./styles";
 import { Globe, ShoppingCart } from 'phosphor-react'
 
@@ -15,6 +14,9 @@ import { LanguageModal } from "../LanguageModal";
 import { NavLink } from "react-router-dom";
 import { UdemyBusiness } from "../UdemyBusiness";
 import { TeachAtUdemy } from "../TeachAtUdemy";
+import { MenuBar } from "../MenuBar";
+import { Cart } from "../Cart";
+import { SearchBar } from "../SearchBar";
 
 export function Header(){
     return (
@@ -22,21 +24,14 @@ export function Header(){
             <NavLink to="/">
                 <ImageContainer src={logoImg} alt="" />
             </NavLink>
-            <TextContatiner>
-                Explorar
-            </TextContatiner>
 
-            <SearchFormContainer type="text" placeholder="Pesquise por qualquer coisa" list="search-suggestions" />
-            <datalist id="search-suggestions">
-                <option value="Pesquisa 1" />
-                <option value="Pesquisa 2" />
-                <option value="Pesquisa 3" />
-            </datalist>
+            <MenuBar />
+
+            <SearchBar />
 
             <UdemyBusiness />
             <TeachAtUdemy />
-            
-            <IconButtonContainer variant="no-border"><ShoppingCart size={20} /></IconButtonContainer>
+            <Cart />
 
             <NavLinkProps to="/sign-in">
                 <ButtonContainer type="button">
