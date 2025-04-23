@@ -20,21 +20,27 @@ export const FeaturesListContainer = styled.div`
     gap: 1rem;
 `;
 
-export const Feature = styled.div`
+export const Feature = styled.button`
     width: 35vw;
     height: 10rem;
     display: flex;
     align-items: center;
+    text-align: left;
     flex-direction: row;
     padding: 1rem;
     gap: 1rem;
     border-radius: 16px;
+    
     border: 1px solid ${props => props.theme['gray-200']};
     background: ${props => props.theme['gray-100']};
 
     &:hover {
         cursor: pointer;
         background: ${props => props.theme['gray-200']};
+    }
+
+    &:focus {
+        border-left: 5px solid ${props => props.theme['purple-300']};;
     }
 `;
 

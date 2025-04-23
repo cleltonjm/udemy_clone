@@ -10,20 +10,45 @@ import {
     TextContainer 
 } from "./styles";
 import { ArrowRight } from 'phosphor-react'
-import previewImage from '../../assets/Portugese.webp'
+
 import handsIcon from '../../assets/icons/hands-on-practice.webp'
 import certIcon from '../../assets/icons/certificate.webp'
 import emptyIcon from '../../assets/icons/empty-state-1.webp'
 import orgIcon from '../../assets/icons/organizations-2.png'
 
+import previewImage from '../../assets/Portugese.webp'
+import previewImage1 from '../../assets/Portugese (1).webp'
+import previewImage2 from '../../assets/Portugese (2).webp'
+import previewImage3 from '../../assets/Portugese (3).webp'
+import { useEffect, useRef, useState } from "react";
+
+const images = [
+    previewImage,
+    previewImage1,
+    previewImage2,
+    previewImage3,
+]
+
 export function Features() {
+    const [selected, setSelected] = useState(images[0])
+
+    const buttonRef = useRef<HTMLButtonElement | null>(null);
+
+    useEffect(() => {
+        buttonRef.current?.focus();
+      }, []);
+
+    const handleSelected = (index: number) => {
+        setSelected(images[index])
+    }
+
     return (
         <FeaturesContainer>
             <h2>Aprendizado com foco nos seus objetivos</h2>
             <ContentContainer>
                 <FeaturesListContainer>
 
-                    <Feature>
+                    <Feature onClick={() => handleSelected(0)} ref={buttonRef}>
                         <ImageContainer>
                             <img src={handsIcon} alt="" />
                         </ImageContainer>
@@ -33,7 +58,7 @@ export function Features() {
                         </TextContainer>
                     </Feature>
 
-                    <Feature>
+                    <Feature onClick={() => handleSelected(1)}>
                         <ImageContainer>
                             <img src={certIcon} alt="" />
                         </ImageContainer>
@@ -47,7 +72,7 @@ export function Features() {
                         </TextContainer>
                     </Feature>
 
-                    <Feature>
+                    <Feature onClick={() => handleSelected(2)}>
                         <ImageContainer>
                             <img src={emptyIcon} alt="" />
                         </ImageContainer>
@@ -64,7 +89,7 @@ export function Features() {
                         </TextContainer>
                     </Feature>
 
-                    <Feature>
+                    <Feature onClick={() => handleSelected(3)}>
                         <ImageContainer>
                             <img src={orgIcon} alt="" />
                         </ImageContainer>
@@ -83,7 +108,7 @@ export function Features() {
 
                 </FeaturesListContainer>
                 <Preview>
-                    <img src={previewImage} alt="Preview" />
+                    <img src={selected} alt="Preview" />
                 </Preview>
             </ContentContainer>
         </FeaturesContainer>
