@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { 
     ButtonsContainer, 
     ButtonSlider, 
@@ -7,10 +8,23 @@ import {
     SliderContainer, 
     TextContainer, 
     CourseCard, 
-    Button 
+    Button, 
+    DescriptionContainer
 } from './styles'
 
-export function Carousel() {    
+const content = [
+    1,
+    2,
+    3
+]
+
+export function Carousel() {
+    const [selected, setSelected] = useState(0)
+
+    const handleSelected = (index: number) => {
+        setSelected(content[index]);
+    }
+    
     return (
         <CarouselContainer>        
             <TextContainer>
@@ -19,69 +33,81 @@ export function Carousel() {
             </TextContainer>
 
             <ButtonsContainer>
-                <button>Data Science</button>
-                <button>Certificações de TI</button>
-                <button>Liderança</button>
-                <button>Desenvolvimento Web</button>
-                <button>Comunicação</button>
-                <button>Business Analytics e Intelligence</button>
+                <button onClick={() => handleSelected(0)}>Data Science</button>
+                <button onClick={() => handleSelected(1)}>Certificações de TI</button>
+                <button onClick={() => handleSelected(2)}>Liderança</button>
+                <button onClick={() => handleSelected(3)}>Desenvolvimento Web</button>
+                <button onClick={() => handleSelected(4)}>Comunicação</button>
+                <button onClick={() => handleSelected(5)}>Business Analytics e Intelligence</button>
             </ButtonsContainer>
 
             <SliderContainer>
                 <ButtonsListContainer>
                     <ButtonSlider>
-                        <text>ChatGPT</text>
+                        <strong>ChatGPT</strong>
                         <span>Mais de 4 mil de alunos</span>
                     </ButtonSlider>
                     <ButtonSlider>
-                        <text>DataScience</text>
+                        <strong>DataScience</strong>
                         <span>Mais de 7 mil de alunos</span>
                     </ButtonSlider>
                     <ButtonSlider>
-                        <text>Python</text>
+                        <strong>Python</strong>
                         <span>Mais de 47,7 mil de alunos</span>
                     </ButtonSlider>
                     <ButtonSlider>
-                        <text>Machine Learning</text>
+                        <strong>Machine Learning</strong>
                         <span>Mais de 8 mil de alunos</span>
                     </ButtonSlider>
                     <ButtonSlider>
-                        <text>Aprendizado profundo</text>
+                        <strong>Aprendizado profundo</strong>
                         <span>Mais de 2 mil de alunos</span>
                     </ButtonSlider>
                     <ButtonSlider>
-                        <text>Artificial Intelligence (AI)</text>
+                        <strong>Artificial Intelligence (AI)</strong>
                         <span>Mais de 4 mil de alunos</span>
                     </ButtonSlider>
                 </ButtonsListContainer>
                 <CoursesContainer>
                     <CourseCard>
                         <img src="https://i.ytimg.com/vi/Y6dfxbAwE9M/maxresdefault.jpg" alt="" />
-                        <h3>ChatGPT, ChatGPT Plus, Dall-E e Criação de Videos com Sora</h3>
-                        <span>Paulo Andrade, PhD +470.000 Alunos</span>
-                        <span>4,8 ★★★★★ (4.230)</span>
-                        <span>R$ 29,90</span>
+                        <DescriptionContainer>
+                            <h2>ChatGPT, ChatGPT Plus, Dall-E e Criação de Videos com Sora</h2>
+                            <span>Paulo Andrade, PhD +470.000 Alunos</span>
+                            <p>4,8 <text>★★★★★</text></p>
+                            <h3>R$ 29,90</h3>
+                            <strong>Mais vendidos</strong>
+                        </DescriptionContainer>
                     </CourseCard>
                     <CourseCard>
                         <img src="https://i.ytimg.com/vi/Y6dfxbAwE9M/maxresdefault.jpg" alt="" />
-                        <h3>ChatGPT, ChatGPT Plus, Dall-E e Criação de Videos com Sora</h3>
-                        <span>Paulo Andrade, PhD +470.000 Alunos</span>
-                        <span>4,8 ★★★★★ (4.230)</span>
-                        <span>R$ 29,90</span>
+                        <DescriptionContainer>
+                            <h2>ChatGPT, ChatGPT Plus, Dall-E e Criação de Videos com Sora</h2>
+                            <span>Paulo Andrade, PhD +470.000 Alunos</span>
+                            <p>4,8 <text>★★★★★</text></p>
+                            <h3>R$ 29,90</h3>
+                            <strong>Mais vendidos</strong>
+                        </DescriptionContainer>
                     </CourseCard>
                     <CourseCard>
                         <img src="https://i.ytimg.com/vi/Y6dfxbAwE9M/maxresdefault.jpg" alt="" />
-                        <h3>ChatGPT, ChatGPT Plus, Dall-E e Criação de Videos com Sora</h3>
-                        <span>Paulo Andrade, PhD +470.000 Alunos</span>
-                        <span>4,8 ★★★★★ (4.230)</span>
-                        <span>R$ 29,90</span>
+                        <DescriptionContainer>
+                            <h2>ChatGPT, ChatGPT Plus, Dall-E e Criação de Videos com Sora</h2>
+                            <span>Paulo Andrade, PhD +470.000 Alunos</span>
+                            <p>4,8 <text>★★★★★</text></p>
+                            <h3>R$ 29,90</h3>
+                            <strong>Mais vendidos</strong>
+                        </DescriptionContainer>
                     </CourseCard>
                     <CourseCard>
                         <img src="https://i.ytimg.com/vi/Y6dfxbAwE9M/maxresdefault.jpg" alt="" />
-                        <h3>ChatGPT, ChatGPT Plus, Dall-E e Criação de Videos com Sora</h3>
-                        <span>Paulo Andrade, PhD +470.000 Alunos</span>
-                        <span>4,8 ★★★★★ (4.230)</span>
-                        <span>R$ 29,90</span>
+                        <DescriptionContainer>
+                            <h2>ChatGPT, ChatGPT Plus, Dall-E e Criação de Videos com Sora</h2>
+                            <span>Paulo Andrade, PhD +470.000 Alunos</span>
+                            <p>4,8 <text>★★★★★</text></p>
+                            <h3>R$ 29,90</h3>
+                            <strong>Mais vendidos</strong>
+                        </DescriptionContainer>
                     </CourseCard>
                 </CoursesContainer>
                 <Button>Mostrar todos os cursos de Data Science</Button>

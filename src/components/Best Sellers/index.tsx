@@ -1,4 +1,4 @@
-import { CourseCard, CoursesContainer, TextContainer } from "./styles";
+import { CourseCard, CoursesContainer, DescriptionContainer, TextContainer } from "./styles";
 
 export function BestSellers() {
     return (
@@ -6,36 +6,44 @@ export function BestSellers() {
             <TextContainer>Os alunos estão vizualizando</TextContainer>
             <CoursesContainer>
                 <CourseCard>
-                    <img src="https://i.ytimg.com/vi/Y6dfxbAwE9M/maxresdefault.jpg" alt="" />
-                    <h3>Curso Python 3 do básico ao avançado - com projetos reais</h3>
-                    <span>Luiz Otavio Miranda</span>
-                    <span>4,8 ★★★★★ (4.230)</span>
-                    <span>R$ 29,90</span>
-                    <span>Mais vendidos</span>
+                    <img src="https://th.bing.com/th/id/R.7f7d9c7fba63d32a8ac73d64ce867caf?rik=PQ0djPwMVDMOqA&pid=ImgRaw&r=0" alt="" />
+                    <DescriptionContainer>
+                        <h2>Curso Python 3 do básico ao avançado - com projetos reais</h2>
+                        <span>Luiz Otavio Miranda</span>
+                        <p>4,8 <text>★★★★★</text></p>
+                        <h3>R$ 29,90</h3>
+                        <strong>Mais vendidos</strong>
+                    </DescriptionContainer>
                 </CourseCard>
                 <CourseCard>
-                    <img src="https://i.ytimg.com/vi/Y6dfxbAwE9M/maxresdefault.jpg" alt="" />
-                    <h3>Curso Python 3 do básico ao avançado - com projetos reais</h3>
-                    <span>Luiz Otavio Miranda</span>
-                    <span>4,8 ★★★★★ (4.230)</span>
-                    <span>R$ 29,90</span>
-                    <span>Mais vendidos</span>
+                    <img src="https://th.bing.com/th/id/R.7f7d9c7fba63d32a8ac73d64ce867caf?rik=PQ0djPwMVDMOqA&pid=ImgRaw&r=0" alt="" />
+                    <DescriptionContainer>
+                        <h2>Curso Python 3 do básico ao avançado - com projetos reais</h2>
+                        <span>Luiz Otavio Miranda</span>
+                        <p>4,8 <text>★★★★★</text></p>
+                        <h3>R$ 29,90</h3>
+                        <strong>Mais vendidos</strong>
+                    </DescriptionContainer>
                 </CourseCard>
                 <CourseCard>
-                    <img src="https://i.ytimg.com/vi/Y6dfxbAwE9M/maxresdefault.jpg" alt="" />
-                    <h3>Curso Python 3 do básico ao avançado - com projetos reais</h3>
-                    <span>Luiz Otavio Miranda</span>
-                    <span>4,8 ★★★★★ (4.230)</span>
-                    <span>R$ 29,90</span>
-                    <span>Mais vendidos</span>
+                    <img src="https://th.bing.com/th/id/R.7f7d9c7fba63d32a8ac73d64ce867caf?rik=PQ0djPwMVDMOqA&pid=ImgRaw&r=0" alt="" />
+                    <DescriptionContainer>
+                        <h2>Curso Python 3 do básico ao avançado - com projetos reais</h2>
+                        <span>Luiz Otavio Miranda</span>
+                        <p>4,8 <text>★★★★★</text></p>
+                        <h3>R$ 29,90</h3>
+                        <strong>Mais vendidos</strong>
+                    </DescriptionContainer>
                 </CourseCard>
                 <CourseCard>
-                    <img src="https://i.ytimg.com/vi/Y6dfxbAwE9M/maxresdefault.jpg" alt="" />
-                    <h3>Curso Python 3 do básico ao avançado - com projetos reais</h3>
-                    <span>Luiz Otavio Miranda</span>
-                    <span>4,8 ★★★★★ (4.230)</span>
-                    <span>R$ 29,90</span>
-                    <span>Mais vendidos</span>
+                    <img src="https://th.bing.com/th/id/R.7f7d9c7fba63d32a8ac73d64ce867caf?rik=PQ0djPwMVDMOqA&pid=ImgRaw&r=0" alt="" />
+                    <DescriptionContainer>
+                        <h2>Curso Python 3 do básico ao avançado - com projetos reais</h2>
+                        <span>Luiz Otavio Miranda</span>
+                        <p>4,8 <text>★★★★★</text></p>
+                        <h3>R$ 29,90</h3>
+                        <strong>Mais vendidos</strong>
+                    </DescriptionContainer>
                 </CourseCard>
             </CoursesContainer>
         </div>
