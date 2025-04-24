@@ -40,7 +40,10 @@ export const Feature = styled.button`
     }
 
     &:focus {
-        border-left: 5px solid ${props => props.theme['purple-300']};;
+        border-left: 5px solid ${props => props.theme['purple-300']};
+        border-top: 1px solid ${props => props.theme['purple-300']};
+        border-right: 1px solid ${props => props.theme['purple-300']};
+        border-bottom: 1px solid ${props => props.theme['purple-300']};
     }
 `;
 

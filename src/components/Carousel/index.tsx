@@ -9,13 +9,10 @@ import {
     CourseCard, 
     Button 
 } from './styles'
-import carousel1 from '../../assets/carousel1.png'
 
 export function Carousel() {    
     return (
-        <CarouselContainer>
-            <img src={carousel1} alt="" />
-        
+        <CarouselContainer>        
             <TextContainer>
                 <h2>Todas as habilidades de que você precisa em um só lugar</h2>
                 <text>Desde habilidades essenciais até temas técnicos, a Udemy apoia seu desenvolvimento profissional.</text>

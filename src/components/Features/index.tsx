@@ -20,7 +20,7 @@ import previewImage from '../../assets/Portugese.webp'
 import previewImage1 from '../../assets/Portugese (1).webp'
 import previewImage2 from '../../assets/Portugese (2).webp'
 import previewImage3 from '../../assets/Portugese (3).webp'
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 
 const images = [
     previewImage,
@@ -32,12 +32,6 @@ const images = [
 export function Features() {
     const [selected, setSelected] = useState(images[0])
 
-    const buttonRef = useRef<HTMLButtonElement | null>(null);
-
-    useEffect(() => {
-        buttonRef.current?.focus();
-      }, []);
-
     const handleSelected = (index: number) => {
         setSelected(images[index])
     }
@@ -48,7 +42,7 @@ export function Features() {
             <ContentContainer>
                 <FeaturesListContainer>
 
-                    <Feature onClick={() => handleSelected(0)} ref={buttonRef}>
+                    <Feature onClick={() => handleSelected(0)}>
                         <ImageContainer>
                             <img src={handsIcon} alt="" />
                         </ImageContainer>

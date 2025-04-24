@@ -4,6 +4,7 @@ export const CarouselContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    padding-top: 3rem;
 `;
 
 export const TextContainer = styled.text`
