@@ -27,7 +27,7 @@ export function Header(){
 
             <MenuBar />
 
-            <SearchBar />
+            <SearchBar />  
 
             <UdemyBusiness />
             <TeachAtUdemy />
