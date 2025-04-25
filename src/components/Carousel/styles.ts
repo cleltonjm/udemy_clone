@@ -60,9 +60,9 @@ export const SliderContainer = styled.div`
 
 export const ButtonsListContainer = styled.div`
     display: flex;
+    flex-direction: row;
     padding-top: 1rem;
     gap: 1rem;
-    flex-direction: row;
 `;
 
 export const ButtonSlider = styled.button`
@@ -128,6 +128,7 @@ export const CourseCard = styled.button`
 
 export const DescriptionContainer = styled.div`
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     text-align: left;
     padding: 1rem;

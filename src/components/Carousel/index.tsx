@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { 
     ButtonsContainer, 
     ButtonSlider, 
@@ -12,18 +12,62 @@ import {
     DescriptionContainer
 } from './styles'
 
-const content = [
-    1,
-    2,
-    3
-]
+interface CourseTheme {
+    id: number,
+    title: string,
+    description: string,
+}
+
+interface Courses {
+    id: number,
+    img: string,
+    title: string,
+    description: string,
+    stars: string,
+    price: string,
+}
 
 export function Carousel() {
-    const [selected, setSelected] = useState(0)
+    // const [selected, setSelected] = useState(0)
+    const [courses, setCourses] = useState<Courses[]>([])
+    const [coursesTheme, setCoursesTheme] = useState<CourseTheme[]>([])
 
-    const handleSelected = (index: number) => {
-        setSelected(content[index]);
+    // const handleSelected = (index: number) => {
+    //     setSelected(content[index]);
+    // }
+
+    async function loadCourses(courseThemeId: number) {
+        const response = await fetch(`http://localhost:3333/courses?courseThemeId=${courseThemeId}`)
+        const data = await response.json();
+
+        setCourses(data)
     }
+
+    useEffect(() => {
+        loadCourses(1);
+    }, [])
+
+    async function loadCoursesTheme(id?: number) {
+        const response = await fetch(`http://localhost:3333/courseTheme?id=${id}`)
+        const data = await response.json();
+
+        setCoursesTheme(data)
+    }
+
+    useEffect(() => {
+        loadCoursesTheme(1);
+    }, [])
+
+    async function loadCoursesThemeList(group: number) {
+        const response = await fetch(`http://localhost:3333/courseTheme?group=${group}`)
+        const data = await response.json();
+        
+        setCoursesTheme(data)
+    }
+
+    useEffect(() => {
+        loadCoursesThemeList(1);
+    }, [])
     
     return (
         <CarouselContainer>        
@@ -33,82 +77,41 @@ export function Carousel() {
             </TextContainer>
 
             <ButtonsContainer>
-                <button onClick={() => handleSelected(0)}>Data Science</button>
-                <button onClick={() => handleSelected(1)}>Certificações de TI</button>
-                <button onClick={() => handleSelected(2)}>Liderança</button>
-                <button onClick={() => handleSelected(3)}>Desenvolvimento Web</button>
-                <button onClick={() => handleSelected(4)}>Comunicação</button>
-                <button onClick={() => handleSelected(5)}>Business Analytics e Intelligence</button>
+                <button onClick={() => loadCoursesThemeList(1)}>Data Science</button>
+                <button onClick={() => loadCoursesThemeList(2)}>Certificações de TI</button>
+                <button onClick={() => loadCoursesThemeList(3)}>Liderança</button>
+                <button onClick={() => loadCoursesThemeList(4)}>Desenvolvimento Web</button>
+                <button onClick={() => loadCoursesThemeList(5)}>Comunicação</button>
+                <button onClick={() => loadCoursesThemeList(6)}>Business Analytics e Intelligence</button>
             </ButtonsContainer>
 
             <SliderContainer>
                 <ButtonsListContainer>
-                    <ButtonSlider>
-                        <strong>ChatGPT</strong>
-                        <span>Mais de 4 mil de alunos</span>
-                    </ButtonSlider>
-                    <ButtonSlider>
-                        <strong>DataScience</strong>
-                        <span>Mais de 7 mil de alunos</span>
-                    </ButtonSlider>
-                    <ButtonSlider>
-                        <strong>Python</strong>
-                        <span>Mais de 47,7 mil de alunos</span>
-                    </ButtonSlider>
-                    <ButtonSlider>
-                        <strong>Machine Learning</strong>
-                        <span>Mais de 8 mil de alunos</span>
-                    </ButtonSlider>
-                    <ButtonSlider>
-                        <strong>Aprendizado profundo</strong>
-                        <span>Mais de 2 mil de alunos</span>
-                    </ButtonSlider>
-                    <ButtonSlider>
-                        <strong>Artificial Intelligence (AI)</strong>
-                        <span>Mais de 4 mil de alunos</span>
-                    </ButtonSlider>
+                    {coursesTheme.map(course => {
+                        return (
+                            <ButtonSlider key={course.id} onClick={() => loadCourses(course.id)}>
+                                <strong>{course.title}</strong>
+                                <span>{course.description}</span>
+                            </ButtonSlider>
+                        )
+                    })}
                 </ButtonsListContainer>
+                
                 <CoursesContainer>
-                    <CourseCard>
-                        <img src="https://i.ytimg.com/vi/Y6dfxbAwE9M/maxresdefault.jpg" alt="" />
-                        <DescriptionContainer>
-                            <h2>ChatGPT, ChatGPT Plus, Dall-E e Criação de Videos com Sora</h2>
-                            <span>Paulo Andrade, PhD +470.000 Alunos</span>
-                            <p>4,8 <text>★★★★★</text></p>
-                            <h3>R$ 29,90</h3>
-                            <strong>Mais vendidos</strong>
-                        </DescriptionContainer>
-                    </CourseCard>
-                    <CourseCard>
-                        <img src="https://i.ytimg.com/vi/Y6dfxbAwE9M/maxresdefault.jpg" alt="" />
-                        <DescriptionContainer>
-                            <h2>ChatGPT, ChatGPT Plus, Dall-E e Criação de Videos com Sora</h2>
-                            <span>Paulo Andrade, PhD +470.000 Alunos</span>
-                            <p>4,8 <text>★★★★★</text></p>
-                            <h3>R$ 29,90</h3>
-                            <strong>Mais vendidos</strong>
-                        </DescriptionContainer>
-                    </CourseCard>
-                    <CourseCard>
-                        <img src="https://i.ytimg.com/vi/Y6dfxbAwE9M/maxresdefault.jpg" alt="" />
-                        <DescriptionContainer>
-                            <h2>ChatGPT, ChatGPT Plus, Dall-E e Criação de Videos com Sora</h2>
-                            <span>Paulo Andrade, PhD +470.000 Alunos</span>
-                            <p>4,8 <text>★★★★★</text></p>
-                            <h3>R$ 29,90</h3>
-                            <strong>Mais vendidos</strong>
-                        </DescriptionContainer>
-                    </CourseCard>
-                    <CourseCard>
-                        <img src="https://i.ytimg.com/vi/Y6dfxbAwE9M/maxresdefault.jpg" alt="" />
-                        <DescriptionContainer>
-                            <h2>ChatGPT, ChatGPT Plus, Dall-E e Criação de Videos com Sora</h2>
-                            <span>Paulo Andrade, PhD +470.000 Alunos</span>
-                            <p>4,8 <text>★★★★★</text></p>
-                            <h3>R$ 29,90</h3>
-                            <strong>Mais vendidos</strong>
-                        </DescriptionContainer>
-                    </CourseCard>
+                    {courses.map(course => {
+                        return (
+                            <CourseCard key={course.id}>
+                                <img src={course.img} alt="" />
+                                <DescriptionContainer>
+                                    <h2>{course.title}</h2>
+                                    <span>{course.description}</span>
+                                    <p>{course.stars} <text>★★★★★</text></p>
+                                    <h3>{course.price}</h3>
+                                    <strong>Mais vendidos</strong>
+                                </DescriptionContainer>
+                            </CourseCard>     
+                        )
+                    })}
                 </CoursesContainer>
                 <Button>Mostrar todos os cursos de Data Science</Button>
             </SliderContainer>
