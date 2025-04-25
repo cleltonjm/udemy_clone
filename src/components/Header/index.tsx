@@ -4,11 +4,10 @@ import {
     IconButtonContainer, 
     ImageContainer, 
     NavLinkProps, 
-    SearchFormContainer 
 } from "./styles";
-import { Globe, ShoppingCart } from 'phosphor-react'
+import { Globe } from 'phosphor-react'
+import logoUdemy from '../../assets/logo-udemy.svg'
 
-import logoImg from '../../assets/udemy-logo.png'
 import * as Dialog from "@radix-ui/react-dialog";
 import { LanguageModal } from "../LanguageModal";
 import { NavLink } from "react-router-dom";
@@ -22,7 +21,7 @@ export function Header(){
     return (
         <HeaderContainer>
             <NavLink to="/">
-                <ImageContainer src={logoImg} alt="" />
+                <ImageContainer src={logoUdemy} alt="" />
             </NavLink>
 
             <MenuBar />

@@ -1,0 +1,403 @@
+{
+    "courseTheme": [
+        {
+            "id": 1,
+            "title": "ChatGPT",
+            "description": "Mais de 4 mil alunos",
+            "group": 1
+        },
+        {
+            "id": 2,
+            "title": "DataScience",
+            "description": "Mais de 7 mil alunos",
+            "group": 1
+        },
+        {
+            "id": 3,
+            "title": "Python",
+            "description": "Mais de 47,7 mil alunos",
+            "group": 1
+        },
+        {
+            "id": 4,
+            "title": "Machine Learning",
+            "description": "Mais de 8 mil alunos",
+            "group": 1
+        },
+        {
+            "id": 5,
+            "title": "Aprendizado profundo",
+            "description": "Mais de 2 mil alunos",
+            "group": 1
+        },
+        {
+            "id": 6,
+            "title": "Artificial Intelligence (AI)",
+            "description": "Mais de 4 mil alunos",
+            "group": 1
+        },
+        {
+            "id": 7,
+            "title": "Amazon AWS",
+            "description": "Mais de 4 mil alunos",
+            "group": 2
+        },
+        {
+            "id": 8,
+            "title": "AWS Certified Cloud Practitioner",
+            "description": "Mais de 2 mil alunos",
+            "group": 2
+        },
+        {
+            "id": 9,
+            "title": "AZ-900: Microsoft Azure Fundamentals",
+            "description": "Mais de 1 mil alunos",
+            "group": 2
+        },
+        {
+            "id": 10,
+            "title": "AWS Certified Solutions Architect - Associate",
+            "description": "Mais de 3 mil alunos",
+            "group": 2
+        },
+        {
+            "id": 11,
+            "title": "Liderança",
+            "description": "Mais de 3 mil alunos",
+            "group": 3
+        },
+        {
+            "id": 12,
+            "title": "Habilidades de gestão",
+            "description": "Mais de 1 mil alunos",
+            "group": 3
+        },
+        {
+            "id": 13,
+            "title": "Gestão de projetos",
+            "description": "Mais de 4 mil alunos",
+            "group": 3
+        },
+        {
+            "id": 14,
+            "title": "Produtividade pessoal",
+            "description": "Mais de 2 mil alunos",
+            "group": 3
+        },
+        {
+            "id": 15,
+            "title": "Inteligência emocional",
+            "description": "Mais de 1 mil alunos",
+            "group": 3
+        },
+        {
+            "id": 16,
+            "title": "Desenvolvimento Web",
+            "description": "Mais de 14,4 mil alunos",
+            "group": 4
+        },
+        {
+            "id": 17,
+            "title": "Javascript",
+            "description": "Mais de 17,7 mil alunos",
+            "group": 4
+        },
+        {
+            "id": 18,
+            "title": "React JS",
+            "description": "Mais de 8 mil alunos",
+            "group": 4
+        },
+        {
+            "id": 19,
+            "title": "Angular",
+            "description": "Mais de 4 mil alunos",
+            "group": 4
+        },
+        {
+            "id": 20,
+            "title": "Java",
+            "description": "Mais de 15,5 mil alunos",
+            "group": 4
+        },
+        {
+            "id": 21,
+            "title": "Habilidades de comunicação",
+            "description": "Mais de 2 mil alunos",
+            "group": 5
+        },
+        {
+            "id": 22,
+            "title": "Técnicas de apresentação",
+            "description": "Mais de 2 mil alunos",
+            "group": 5
+        },
+        {
+            "id": 23,
+            "title": "Discurso em público",
+            "description": "Mais de 3 mil alunos",
+            "group": 5
+        },
+        {
+            "id": 24,
+            "title": "Redação",
+            "description": "Mais de 1 mil alunos",
+            "group": 5
+        },
+        {
+            "id": 25,
+            "title": "Power Point",
+            "description": "Mais de 2 mil alunos",
+            "group": 5
+        },
+        {
+            "id": 26,
+            "title": "Microsoft Excel",
+            "description": "Mais de 18,8 mil alunos",
+            "group": 6
+        },
+        {
+            "id": 27,
+            "title": "SQL",
+            "description": "Mais de 8 mil alunos",
+            "group": 6
+        },
+        {
+            "id": 28,
+            "title": "Microsoft Power BI",
+            "description": "Mais de 4 mil alunos",
+            "group": 6
+        },
+        {
+            "id": 29,
+            "title": "Análise de dados",
+            "description": "Mais de 4 mil alunos",
+            "group": 6
+        },
+        {
+            "id": 30,
+            "title": "Análise de negócios",
+            "description": "Mais de 1 mil alunos",
+            "group": 6
+        }
+    ],
+
+    "courses": [
+        {
+            "id": 1,
+            "img": "https://img-c.udemycdn.com/course/240x135/5149842_5d68_4.jpg",
+            "title": "ChatGPT, ChatGPT Plus, Dall-E e Criação de Videos com Sora",
+            "description": "Paulo Andrade, PhD +470.000 Alunos",
+            "stars": "4,8",
+            "price": "R$ 79,90",
+            "courseThemeId": 1 
+        },
+        {
+            "id": 2,
+            "img": "https://img-c.udemycdn.com/course/240x135/5200698_70e6_3.jpg",
+            "title": "ChatGPT Completo: Domine Chat GPT e Inteligência Artificial",
+            "description": "Diego Davila +1.000.000 Alunos",
+            "stars": "4,6",
+            "price": "R$ 79,90",
+            "courseThemeId": 1 
+        },
+        {
+            "id": 3,
+            "img": "https://img-c.udemycdn.com/course/240x135/5195068_e18f_4.jpg",
+            "title": "ChatGPT Marketing: Crie Campanhas Completas com Chat...",
+            "description": "Diego Davila +1.000.000 Alunos",
+            "stars": "4,7",
+            "price": "R$ 79,90",
+            "courseThemeId": 1 
+        },
+        {
+            "id": 4,
+            "img": "https://img-c.udemycdn.com/course/240x135/5135302_a4fa_4.jpg",
+            "title": "ChatGPT Um Guia Completo: Aprenda ChatGPT 4 e muito mais",
+            "description": "Matheus Stangherlin",
+            "stars": "4,3",
+            "price": "R$ 179,90",
+            "courseThemeId": 1 
+        },
+        {
+            "id": 5,
+            "img": "https://img-c.udemycdn.com/course/240x135/1225734_d634_16.jpg",
+            "title": "Formação Cientista de Dados: O Curso Completo",
+            "description": "Fernando Amaral",
+            "stars": "4,7",
+            "price": "R$ 209,90",
+            "courseThemeId": 2
+        },
+        {
+            "id": 6,
+            "img": "https://img-c.udemycdn.com/course/240x135/1419916_21d4_5.jpg",
+            "title": "Machine Learning e Data Science com Python de A a Z",
+            "description": "Jones Granatyr, IA Expert Academy",
+            "stars": "4,7",
+            "price": "R$ 289,90",
+            "courseThemeId": 2
+        },
+        {
+            "id": 7,
+            "img": "https://img-c.udemycdn.com/course/240x135/1205024_c4d8_28.jpg",
+            "title": "Data Science de A a Z - Extração e Exibição dos Dados",
+            "description": "Felipe Mafra",
+            "stars": "4,7",
+            "price": "R$ 209,90",
+            "courseThemeId": 2
+        },
+        {
+            "id": 8,
+            "img": "https://img-c.udemycdn.com/course/240x135/1116032_c0c8.jpg",
+            "title": "Machine Learning e Data Science com Python",
+            "description": "Marcos Castro",
+            "stars": "4,5",
+            "price": "R$ 179,90",
+            "courseThemeId": 2
+        },
+        {
+            "id": 9,
+            "img": "https://img-c.udemycdn.com/course/240x135/2411816_3802_4.jpg",
+            "title": "Curso de Python 3 do básico ao avançado - com projetos reais",
+            "description": "Luiz Otávio Miranda, Tales Calogi...",
+            "stars": "4,8",
+            "price": "R$ 169,90",
+            "courseThemeId": 3
+        },
+        {
+            "id": 10,
+            "img": "https://img-c.udemycdn.com/course/240x135/1831892_7def_4.jpg",
+            "title": "Introdução à programação de computadores",
+            "description": "Diego Mariano, PhD.",
+            "stars": "4,5",
+            "price": "R$ 139,90",
+            "courseThemeId": 3
+        },
+        {
+            "id": 11,
+            "img": "https://img-c.udemycdn.com/course/240x135/1927044_a831_2.jpg",
+            "title": "Programação em Python do básico ao avançado",
+            "description": "Geek University",
+            "stars": "4,6",
+            "price": "R$ 209,90",
+            "courseThemeId": 3
+        },
+        {
+            "id": 12,
+            "img": "https://img-c.udemycdn.com/course/240x135/2026618_7f90.jpg",
+            "title": "Python e MySQL",
+            "description": "Alfahelix Treinamentos",
+            "stars": "4,3",
+            "price": "R$ 189,90",
+            "courseThemeId": 3
+        },
+        {
+            "id": 13,
+            "img": "https://img-c.udemycdn.com/course/240x135/1419916_21d4_5.jpg",
+            "title": "Machine Learning e Data Science com Python de A a Z",
+            "description": "Jones Granatyr, IA Expert Academy",
+            "stars": "4,7",
+            "price": "R$ 189,90",
+            "courseThemeId": 4
+        },
+        {
+            "id": 14,
+            "img": "https://img-c.udemycdn.com/course/240x135/1116032_c0c8.jpg",
+            "title": "Machine Learning e Data Science com Python",
+            "description": "Marcos Castro",
+            "stars": "4,5",
+            "price": "R$ 179,90",
+            "courseThemeId": 4
+        },
+        {
+            "id": 15,
+            "img": "https://img-c.udemycdn.com/course/240x135/1443670_31e0.jpg",
+            "title": "Machine Learning e Data Science com R de A a Z",
+            "description": "Jones Granatyr, IA Expert Academy",
+            "stars": "4,6",
+            "price": "R$ 209,90",
+            "courseThemeId": 4
+        },
+        {
+            "id": 16,
+            "img": "https://img-c.udemycdn.com/course/240x135/1149316_d35f_3.jpg",
+            "title": "Machine Learning e Data Science com Weka e Java - Completo",
+            "description": "Jones Granatyr, IA Expert Academy",
+            "stars": "4,8",
+            "price": "R$ 189,90",
+            "courseThemeId": 4
+        },
+        {
+            "id": 17,
+            "img": "https://img-c.udemycdn.com/course/240x135/1732564_44ab.jpg",
+            "title": "Deep Learning com Python de A a Z - O Curso Completo [2024]",
+            "description": "Jones Granatyr, IA Expert Academy",
+            "stars": "4,8",
+            "price": "R$ 174,90",
+            "courseThemeId": 5
+        },
+        {
+            "id": 18,
+            "img": "https://img-c.udemycdn.com/course/240x135/1349908_98a7_6.jpg",
+            "title": "Redes Neurais Artificiais em Python",
+            "description": "Jones Granatyr, IA Expert Academy",
+            "stars": "4,7",
+            "price": "R$ 195,90",
+            "courseThemeId": 5
+        },
+        {
+            "id": 19,
+            "img": "https://img-c.udemycdn.com/course/240x135/2805621_f292_3.jpg",
+            "title": "Deep Learning de A a Z com PyTorch e Python",
+            "description": "Jones Granatyr, Denny Ceccon, IA Expe...",
+            "stars": "4,7",
+            "price": "R$ 174,90",
+            "courseThemeId": 5
+        },
+        {
+            "id": 20,
+            "img": "https://img-c.udemycdn.com/course/240x135/2639502_5c09_3.jpg",
+            "title": "Deep Learning Prático com TensorFlow e Python",
+            "description": "Jones Granatyr, Dr. Ryan Ahmed | 400k",
+            "stars": "4,7",
+            "price": "R$ 190,90",
+            "courseThemeId": 5
+        },
+        {
+            "id": 21,
+            "img": "https://img-c.udemycdn.com/course/240x135/1334248_d074_18.jpg",
+            "title": "Formação Completa Inteligência Artificial - 2025",
+            "description": "Fernando Amaral",
+            "stars": "4,6",
+            "price": "R$ 209,90",
+            "courseThemeId": 6
+        },
+        {
+            "id": 22,
+            "img": "https://img-c.udemycdn.com/course/240x135/3427722_3604.jpg",
+            "title": "Inteligência Artificial e Machine Learning: O Guia Completo",
+            "description": "Jones Granatyr, IA Expert Academy",
+            "stars": "4,5",
+            "price": "R$ 179,90",
+            "courseThemeId": 6
+        },
+        {
+            "id": 23,
+            "img": "https://img-c.udemycdn.com/course/240x135/1989332_329e.jpg",
+            "title": "TensorFlow: Machine Learning e Deep Learning com Python",
+            "description": "Jones Granatyr, IA Expert Academy",
+            "stars": "4,3",
+            "price": "R$ 189,90",
+            "courseThemeId": 6
+        },
+        {
+            "id": 24,
+            "img": "https://img-c.udemycdn.com/course/240x135/1146906_18b2_4.jpg",
+            "title": "Inteligência Artificial: Sistemas de Recomendação em Python",
+            "description": "Jones Granatyr, IA Expert Academy",
+            "stars": "4,7",
+            "price": "R$ 159,90",
+            "courseThemeId": 6
+        }
+    ]
+}

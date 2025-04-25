@@ -19,7 +19,10 @@ export const HeaderContainer = styled.header`
 `;
 
 export const ImageContainer = styled.img`
-    width: 5rem;
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
 `;
 
 export const SearchFormContainer = styled.input`
@@ -84,6 +87,7 @@ export const IconButtonContainer = styled.button<ButtonVariantProps>`
     padding: 0.5rem;
     border: 1px solid;
     border-radius: 4px;
+    margin-right: 1rem;
 
     cursor: pointer;
 

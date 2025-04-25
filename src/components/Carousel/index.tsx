@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import { 
     ButtonsContainer, 
     ButtonSlider, 
@@ -7,85 +8,110 @@ import {
     SliderContainer, 
     TextContainer, 
     CourseCard, 
-    Button 
+    Button, 
+    DescriptionContainer
 } from './styles'
-import carousel1 from '../../assets/carousel1.png'
 
-export function Carousel() {    
-    return (
-        <CarouselContainer>
-            <img src={carousel1} alt="" />
+interface CourseTheme {
+    id: number,
+    title: string,
+    description: string,
+}
+
+interface Courses {
+    id: number,
+    img: string,
+    title: string,
+    description: string,
+    stars: string,
+    price: string,
+}
+
+export function Carousel() {
+    // const [selected, setSelected] = useState(0)
+    const [courses, setCourses] = useState<Courses[]>([])
+    const [coursesTheme, setCoursesTheme] = useState<CourseTheme[]>([])
+
+    // const handleSelected = (index: number) => {
+    //     setSelected(content[index]);
+    // }
+
+    async function loadCourses(courseThemeId: number) {
+        const response = await fetch(`http://localhost:3333/courses?courseThemeId=${courseThemeId}`)
+        const data = await response.json();
+
+        setCourses(data)
+    }
+
+    useEffect(() => {
+        loadCourses(1);
+    }, [])
+
+    async function loadCoursesTheme(id?: number) {
+        const response = await fetch(`http://localhost:3333/courseTheme?id=${id}`)
+        const data = await response.json();
+
+        setCoursesTheme(data)
+    }
+
+    useEffect(() => {
+        loadCoursesTheme(1);
+    }, [])
+
+    async function loadCoursesThemeList(group: number) {
+        const response = await fetch(`http://localhost:3333/courseTheme?group=${group}`)
+        const data = await response.json();
         
+        setCoursesTheme(data)
+    }
+
+    useEffect(() => {
+        loadCoursesThemeList(1);
+    }, [])
+    
+    return (
+        <CarouselContainer>        
             <TextContainer>
                 <h2>Todas as habilidades de que você precisa em um só lugar</h2>
                 <text>Desde habilidades essenciais até temas técnicos, a Udemy apoia seu desenvolvimento profissional.</text>
             </TextContainer>
 
             <ButtonsContainer>
-                <button>Data Science</button>
-                <button>Certificações de TI</button>
-                <button>Liderança</button>
-                <button>Desenvolvimento Web</button>
-                <button>Comunicação</button>
-                <button>Business Analytics e Intelligence</button>
+                <button onClick={() => loadCoursesThemeList(1)}>Data Science</button>
+                <button onClick={() => loadCoursesThemeList(2)}>Certificações de TI</button>
+                <button onClick={() => loadCoursesThemeList(3)}>Liderança</button>
+                <button onClick={() => loadCoursesThemeList(4)}>Desenvolvimento Web</button>
+                <button onClick={() => loadCoursesThemeList(5)}>Comunicação</button>
+                <button onClick={() => loadCoursesThemeList(6)}>Business Analytics e Intelligence</button>
             </ButtonsContainer>
 
             <SliderContainer>
                 <ButtonsListContainer>
-                    <ButtonSlider>
-                        <text>ChatGPT</text>
-                        <span>Mais de 4 mil de alunos</span>
-                    </ButtonSlider>
-                    <ButtonSlider>
-                        <text>DataScience</text>
-                        <span>Mais de 7 mil de alunos</span>
-                    </ButtonSlider>
-                    <ButtonSlider>
-                        <text>Python</text>
-                        <span>Mais de 47,7 mil de alunos</span>
-                    </ButtonSlider>
-                    <ButtonSlider>
-                        <text>Machine Learning</text>
-                        <span>Mais de 8 mil de alunos</span>
-                    </ButtonSlider>
-                    <ButtonSlider>
-                        <text>Aprendizado profundo</text>
-                        <span>Mais de 2 mil de alunos</span>
-                    </ButtonSlider>
-                    <ButtonSlider>
-                        <text>Artificial Intelligence (AI)</text>
-                        <span>Mais de 4 mil de alunos</span>
-                    </ButtonSlider>
+                    {coursesTheme.map(course => {
+                        return (
+                            <ButtonSlider key={course.id} onClick={() => loadCourses(course.id)}>
+                                <strong>{course.title}</strong>
+                                <span>{course.description}</span>
+                            </ButtonSlider>
+                        )
+                    })}
                 </ButtonsListContainer>
+                
                 <CoursesContainer>
-                    <CourseCard>
-                        <img src="https://i.ytimg.com/vi/Y6dfxbAwE9M/maxresdefault.jpg" alt="" />
-                        <h3>ChatGPT, ChatGPT Plus, Dall-E e Criação de Videos com Sora</h3>
-                        <span>Paulo Andrade, PhD +470.000 Alunos</span>
-                        <span>4,8 ★★★★★ (4.230)</span>
-                        <span>R$ 29,90</span>
-                    </CourseCard>
-                    <CourseCard>
-                        <img src="https://i.ytimg.com/vi/Y6dfxbAwE9M/maxresdefault.jpg" alt="" />
-                        <h3>ChatGPT, ChatGPT Plus, Dall-E e Criação de Videos com Sora</h3>
-                        <span>Paulo Andrade, PhD +470.000 Alunos</span>
-                        <span>4,8 ★★★★★ (4.230)</span>
-                        <span>R$ 29,90</span>
-                    </CourseCard>
-                    <CourseCard>
-                        <img src="https://i.ytimg.com/vi/Y6dfxbAwE9M/maxresdefault.jpg" alt="" />
-                        <h3>ChatGPT, ChatGPT Plus, Dall-E e Criação de Videos com Sora</h3>
-                        <span>Paulo Andrade, PhD +470.000 Alunos</span>
-                        <span>4,8 ★★★★★ (4.230)</span>
-                        <span>R$ 29,90</span>
-                    </CourseCard>
-                    <CourseCard>
-                        <img src="https://i.ytimg.com/vi/Y6dfxbAwE9M/maxresdefault.jpg" alt="" />
-                        <h3>ChatGPT, ChatGPT Plus, Dall-E e Criação de Videos com Sora</h3>
-                        <span>Paulo Andrade, PhD +470.000 Alunos</span>
-                        <span>4,8 ★★★★★ (4.230)</span>
-                        <span>R$ 29,90</span>
-                    </CourseCard>
+                    {courses.map(course => {
+                        return (
+                            <CourseCard key={course.id}>
+                                <img src={course.img} alt="" />
+                                <DescriptionContainer>
+                                    <h2>{course.title}</h2>
+                                    <span>{course.description}</span>
+                                    <p>{course.stars} <text>★★★★★</text></p>
+                                    <h3>{course.price}</h3>
+                                    <strong>Mais vendidos</strong>
+                                </DescriptionContainer>
+                            </CourseCard>     
+                        )
+                    })}
                 </CoursesContainer>
                 <Button>Mostrar todos os cursos de Data Science</Button>
             </SliderContainer>

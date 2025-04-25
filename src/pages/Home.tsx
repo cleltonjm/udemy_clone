@@ -7,10 +7,12 @@ import { Plans } from "../components/Plans";
 import { Reports } from "../components/Reports";
 import { Testmonials } from "../components/Testmonials";
 import { Trending } from "../components/Trending";
+import { Viewport } from "../components/Viewport";
 
 export function Home() {
     return (
         <div>
+            <Viewport />
             <Carousel />
             <Partner />
             <BestSellers />
