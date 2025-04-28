@@ -9,7 +9,8 @@ import {
     TextContainer, 
     CourseCard, 
     Button, 
-    DescriptionContainer
+    DescriptionContainer,
+    StyledButton
 } from './styles'
 
 interface CourseTheme {
@@ -28,13 +29,19 @@ interface Courses {
 }
 
 export function Carousel() {
-    // const [selected, setSelected] = useState(0)
+    const [selected, setSelected] = useState<number>(1)
+    const [selectedCourse, setSelectedCourse] = useState<number>(1)
     const [courses, setCourses] = useState<Courses[]>([])
     const [coursesTheme, setCoursesTheme] = useState<CourseTheme[]>([])
 
-    // const handleSelected = (index: number) => {
-    //     setSelected(content[index]);
-    // }
+    const handleSelected = (id: number) => {
+        setSelected(id)
+    }
+
+    const handleSelectedCourse = (id: number) => {
+        setSelectedCourse(id)
+        loadCourses(id)
+    }
 
     async function loadCourses(courseThemeId: number) {
         const response = await fetch(`http://localhost:3333/courses?courseThemeId=${courseThemeId}`)
@@ -43,30 +50,27 @@ export function Carousel() {
         setCourses(data)
     }
 
-    useEffect(() => {
-        loadCourses(1);
-    }, [])
-
-    async function loadCoursesTheme(id?: number) {
+    async function loadCoursesTheme(id: number) {
         const response = await fetch(`http://localhost:3333/courseTheme?id=${id}`)
         const data = await response.json();
 
         setCoursesTheme(data)
     }
 
-    useEffect(() => {
-        loadCoursesTheme(1);
-    }, [])
-
-    async function loadCoursesThemeList(group: number) {
+    async function loadCoursesThemeList(group: number, courseThemeId: number) {
         const response = await fetch(`http://localhost:3333/courseTheme?group=${group}`)
+        const responseCourse = await fetch(`http://localhost:3333/courses?courseThemeId=${courseThemeId}`)
         const data = await response.json();
+        const dataCourse = await responseCourse.json();
         
+        setCourses(dataCourse)
         setCoursesTheme(data)
     }
 
     useEffect(() => {
-        loadCoursesThemeList(1);
+        loadCourses(1);
+        loadCoursesTheme(1);
+        loadCoursesThemeList(1, 1);
     }, [])
     
     return (
@@ -77,19 +81,19 @@ export function Carousel() {
             </TextContainer>
 
             <ButtonsContainer>
-                <button onClick={() => loadCoursesThemeList(1)}>Data Science</button>
-                <button onClick={() => loadCoursesThemeList(2)}>Certificações de TI</button>
-                <button onClick={() => loadCoursesThemeList(3)}>Liderança</button>
-                <button onClick={() => loadCoursesThemeList(4)}>Desenvolvimento Web</button>
-                <button onClick={() => loadCoursesThemeList(5)}>Comunicação</button>
-                <button onClick={() => loadCoursesThemeList(6)}>Business Analytics e Intelligence</button>
+                <StyledButton selected={selected === 1} onClick={() => {loadCoursesThemeList(1, 1), handleSelected(1)}}>Data Science</StyledButton>
+                <StyledButton selected={selected === 2} onClick={() => {loadCoursesThemeList(2, 2), handleSelected(2)}}>Certificações de TI</StyledButton>
+                <StyledButton selected={selected === 3} onClick={() => {loadCoursesThemeList(3, 3), handleSelected(3)}}>Liderança</StyledButton>
+                <StyledButton selected={selected === 4} onClick={() => {loadCoursesThemeList(4, 4), handleSelected(4)}}>Desenvolvimento Web</StyledButton>
+                <StyledButton selected={selected === 5} onClick={() => {loadCoursesThemeList(5, 5), handleSelected(5)}}>Comunicação</StyledButton>
+                <StyledButton selected={selected === 6} onClick={() => {loadCoursesThemeList(6, 6), handleSelected(6)}}>Business Analytics e Intelligence</StyledButton>
             </ButtonsContainer>
 
             <SliderContainer>
                 <ButtonsListContainer>
                     {coursesTheme.map(course => {
                         return (
-                            <ButtonSlider key={course.id} onClick={() => loadCourses(course.id)}>
+                            <ButtonSlider key={course.id} selected={selectedCourse === course.id} onClick={() => handleSelectedCourse(course.id)}>
                                 <strong>{course.title}</strong>
                                 <span>{course.description}</span>
                             </ButtonSlider>
