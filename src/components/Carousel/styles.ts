@@ -167,7 +167,7 @@ export const Button = styled.a`
     padding: 0.75rem;
     font-weight: 900;
     font-size: 0.875rem;
-
+    text-decoration: none;
     color: ${props => props.theme['blue-350']};
     border-color: ${props => props.theme['blue-350']};
 
