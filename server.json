@@ -92,91 +92,121 @@
         },
         {
             "id": 16,
+            "title": "Transformação digital",
+            "description": "Mais de 389.000 alunos",
+            "group": 3
+        },
+        {
+            "id": 17,
             "title": "Desenvolvimento Web",
             "description": "Mais de 14,4 mil alunos",
             "group": 4
         },
         {
-            "id": 17,
+            "id": 18,
             "title": "Javascript",
             "description": "Mais de 17,7 mil alunos",
             "group": 4
         },
         {
-            "id": 18,
+            "id": 19,
             "title": "React JS",
             "description": "Mais de 8 mil alunos",
             "group": 4
         },
         {
-            "id": 19,
+            "id": 20,
             "title": "Angular",
             "description": "Mais de 4 mil alunos",
             "group": 4
         },
         {
-            "id": 20,
+            "id": 21,
             "title": "Java",
             "description": "Mais de 15,5 mil alunos",
             "group": 4
         },
         {
-            "id": 21,
+            "id": 22,
+            "title": "Desenvolvimento para Android",
+            "description": "Mais de 8 mil alunos",
+            "group": 4
+        },
+        {
+            "id": 23,
             "title": "Habilidades de comunicação",
             "description": "Mais de 2 mil alunos",
             "group": 5
         },
         {
-            "id": 22,
+            "id": 24,
             "title": "Técnicas de apresentação",
             "description": "Mais de 2 mil alunos",
             "group": 5
         },
         {
-            "id": 23,
+            "id": 25,
             "title": "Discurso em público",
             "description": "Mais de 3 mil alunos",
             "group": 5
         },
         {
-            "id": 24,
+            "id": 26,
             "title": "Redação",
             "description": "Mais de 1 mil alunos",
             "group": 5
         },
         {
-            "id": 25,
+            "id": 27,
             "title": "Power Point",
             "description": "Mais de 2 mil alunos",
             "group": 5
         },
         {
-            "id": 26,
+            "id": 28,
+            "title": "Comunicação",
+            "description": "Mais de 422.800 alunos",
+            "group": 5
+        },
+        {
+            "id": 29,
             "title": "Microsoft Excel",
             "description": "Mais de 18,8 mil alunos",
             "group": 6
         },
         {
-            "id": 27,
+            "id": 30,
             "title": "SQL",
             "description": "Mais de 8 mil alunos",
             "group": 6
         },
         {
-            "id": 28,
+            "id": 31,
             "title": "Microsoft Power BI",
             "description": "Mais de 4 mil alunos",
             "group": 6
         },
         {
-            "id": 29,
+            "id": 32,
             "title": "Análise de dados",
             "description": "Mais de 4 mil alunos",
             "group": 6
         },
         {
-            "id": 30,
+            "id": 33,
             "title": "Análise de negócios",
+            "description": "Mais de 1 mil alunos",
+            "group": 6
+        },
+        {
+            "id": 34,
+            "title": "Tableau",
+            "description": "Mais de 1 mil alunos",
+            "group": 6
+        },
+        {
+            "id": 35,
+            "title": "Visualização de dados",
             "description": "Mais de 1 mil alunos",
             "group": 6
         }
@@ -398,6 +428,1050 @@
             "stars": "4,7",
             "price": "R$ 159,90",
             "courseThemeId": 6
+        },
+        {
+            "id": 25,
+            "img": "https://img-c.udemycdn.com/course/240x135/2269618_d88e_6.jpg",
+            "title": "Computação em Nuvem Amazon AWS para Iniciantes",
+            "description": "Andre Iacono | 325000+ Students",
+            "stars": "4,8",
+            "price": "R$ 190,90",
+            "courseThemeId": 7
+        },
+        {
+            "id": 26,
+            "img": "https://img-c.udemycdn.com/course/240x135/1955638_a842_4.jpg",
+            "title": "Terraform (v0.14): Automatizando sua infraestrutura na AWS",
+            "description": "Cleber Gasparoto",
+            "stars": "4,5",
+            "price": "R$ 221,90",
+            "courseThemeId": 7
+        },
+        {
+            "id": 27,
+            "img": "https://img-c.udemycdn.com/course/240x135/1802016_8d77_2.jpg",
+            "title": "AWS para Iniciantes - Aprenda e Domina a nuvem Amazon",
+            "description": "Universidade Global, Rogerio Guimaraes",
+            "stars": "4,6",
+            "price": "R$ 221,90",
+            "courseThemeId": 7
+        },
+        {
+            "id": 28,
+            "img": "https://img-c.udemycdn.com/course/240x135/1883834_864a_4.jpg",
+            "title": "Administração de redes - Linux 101 v2 | Essentials",
+            "description": "Thiago Nosch",
+            "stars": "4,6",
+            "price": "R$ 170,90",
+            "courseThemeId": 7
+        },
+        {
+            "id": 29,
+            "img": "https://img-c.udemycdn.com/course/240x135/2947090_42b6_4.jpg",
+            "title": "Certificação Amazon AWS Cloud Practitioner (CLF-C01)",
+            "description": "Andre Iacono | 3250000+ Statudents",
+            "stars": "4,8",
+            "price": "R$ 190,90",
+            "courseThemeId": 8
+        },
+        {
+            "id": 30,
+            "img": "https://img-c.udemycdn.com/course/240x135/5427446_77c0_2.jpg",
+            "title": "Certificação Amazon AWS Certified Cloud Practitoner CLF...",
+            "description": "Andre Iacono | 3250000+ Statudents",
+            "stars": "4,8",
+            "price": "R$ 79,90",
+            "courseThemeId": 8
+        },
+        {
+            "id": 31,
+            "img": "https://img-c.udemycdn.com/course/240x135/2514206_3b3e.jpg",
+            "title": "AWS Certified Cloud Practitoner - Prparatório AWS CPP",
+            "description": "Universidade Global, Rogerio Guimaraes",
+            "stars": "4,6",
+            "price": "R$ 190,90",
+            "courseThemeId": 8
+        },
+        {
+            "id": 32,
+            "img": "https://img-c.udemycdn.com/course/240x135/2580086_900a_19.jpg",
+            "title": "Cretificação AWS Certified Cloud Practitoner 2025 CLF-C02",
+            "description": "Eduardo Lara",
+            "stars": "4,8",
+            "price": "R$ 249,90",
+            "courseThemeId": 8
+        },
+        {
+            "id": 33,
+            "img": "https://img-c.udemycdn.com/course/240x135/4444518_5a45_3.jpg",
+            "title": "Cretificação Microsoft AZ-900 Azure Fundamentals",
+            "description": "Andre Iacono | 3250000+ Statudents",
+            "stars": "4,7",
+            "price": "R$ 190,90",
+            "courseThemeId": 9
+        },
+        {
+            "id": 34,
+            "img": "https://img-c.udemycdn.com/course/240x135/2406602_5794_2.jpg",
+            "title": "Microsoft Azure + Preparação Certificação Oficial Az-900",
+            "description": "Zeca Nunes",
+            "stars": "4,4",
+            "price": "R$ 190,90",
+            "courseThemeId": 9
+        },
+        {
+            "id": 35,
+            "img": "https://img-c.udemycdn.com/course/240x135/3529310_7970.jpg",
+            "title": "AZ-900 | Certificação Microsoft Azure Fundamentals 2025",
+            "description": "Higor Barbosa",
+            "stars": "4,7",
+            "price": "R$ 79,90",
+            "courseThemeId": 9
+        },
+        {
+            "id": 36,
+            "img": "https://img-c.udemycdn.com/course/240x135/3907982_95b3_3.jpg",
+            "title": "Certificação Microsoft Azure AZ-900: Teoria e Prática",
+            "description": "Mayko Silva",
+            "stars": "4,6",
+            "price": "R$ 172,90",
+            "courseThemeId": 9
+        },
+        {
+            "id": 37,
+            "img": "https://img-c.udemycdn.com/course/240x135/2306930_6c0e_16.jpg",
+            "title": "Certificação AWS Solutions Architect Associate SAA-C03",
+            "description": "Andre Iacono | 3250000+ Statudents",
+            "stars": "4,8",
+            "price": "R$ 247,90",
+            "courseThemeId": 10
+        },
+        {
+            "id": 38,
+            "img": "https://img-c.udemycdn.com/course/240x135/2266880_45a5.jpg",
+            "title": "AWS Certified Solutions Architect - (em Português)",
+            "description": "M Martins",
+            "stars": "4,4",
+            "price": "R$ 79,90",
+            "courseThemeId": 10
+        },
+        {
+            "id": 39,
+            "img": "https://img-c.udemycdn.com/course/240x135/2608448_1a6e.jpg",
+            "title": "Certificação AWS Solutions Architect 2021 - Associate",
+            "description": "Adilson Perinei",
+            "stars": "4,8",
+            "price": "R$ 211,90",
+            "courseThemeId": 10
+        },
+        {
+            "id": 40,
+            "img": "https://img-c.udemycdn.com/course/240x135/1950054_eee6_6.jpg",
+            "title": "Domine AWS com NUVYM",
+            "description": "Adiél Lima",
+            "stars": "4,3",
+            "price": "R$ 121,90",
+            "courseThemeId": 10
+        },
+        {
+            "id": 41,
+            "img": "https://img-c.udemycdn.com/course/240x135/1412564_5dfd_2.jpg",
+            "title": "Fast MBA Lead - Liderança e Gestão de Pessoa",
+            "description": "André Bernardo",
+            "stars": "4,7",
+            "price": "R$ 174,90",
+            "courseThemeId": 11
+        },
+        {
+            "id": 42,
+            "img": "https://img-c.udemycdn.com/course/240x135/1066560_92a9_3.jpg",
+            "title": "Fundamentos da Liderança + Curso Extra de Negociação",
+            "description": "Gustavo Farias 500.000+ Alunos",
+            "stars": "4,6",
+            "price": "R$ 166,90",
+            "courseThemeId": 11
+        },
+        {
+            "id": 43,
+            "img": "https://img-c.udemycdn.com/course/240x135/4261280_10e6_5.jpg",
+            "title": "Liderança e Gestão de Pessoas | Formação COMPLETA + 5 Extras",
+            "description": "Gustavo Farias 500.000+ Alunos",
+            "stars": "4,8",
+            "price": "R$ 182,90",
+            "courseThemeId": 11
+        },
+        {
+            "id": 44,
+            "img": "https://img-c.udemycdn.com/course/240x135/2930430_f6db_2.jpg",
+            "title": "Liderança e Gestão de Equipes 4.0",
+            "description": "Maurílio Barboza",
+            "stars": "4,6",
+            "price": "R$ 79,90",
+            "courseThemeId": 11
+        },
+        {
+            "id": 45,
+            "img": "https://img-c.udemycdn.com/course/240x135/796518_b820_5.jpg",
+            "title": "Autogestão para o sucesso",
+            "description": "Nanda Ricci",
+            "stars": "4,6",
+            "price": "R$ 93,90",
+            "courseThemeId": 12
+        },
+        {
+            "id": 46,
+            "img": "https://img-c.udemycdn.com/course/240x135/987894_313d_3.jpg",
+            "title": "Liderança e gestão de Pessoas e Equipes",
+            "description": "David Bizzo Marques",
+            "stars": "4,6",
+            "price": "R$ 265,90",
+            "courseThemeId": 12
+        },
+        {
+            "id": 47,
+            "img": "https://img-c.udemycdn.com/course/240x135/5565426_72f4_3.jpg",
+            "title": "Gestão de Negócios FORMAÇÂO COMPLETA + Planilhas PREMIUM",
+            "description": "Diego Rodrigues",
+            "stars": "4,7",
+            "price": "R$ 79,90",
+            "courseThemeId": 12
+        },
+        {
+            "id": 48,
+            "img": "https://img-c.udemycdn.com/course/240x135/1960660_0a2c.jpg",
+            "title": "Curso Básico de Administração de Empresas",
+            "description": "RB Treinamentos e Cursos",
+            "stars": "4,6",
+            "price": "R$ 186,90",
+            "courseThemeId": 12
+        },
+        {
+            "id": 49,
+            "img": "https://img-c.udemycdn.com/course/240x135/775066_a5bb_7.jpg",
+            "title": "Planejamento e Gestão de Projetos COMPLETO + 5 cursos...",
+            "description": "Gustavo Farias 500.000+ Alunos",
+            "stars": "4,7",
+            "price": "R$ 174,90",
+            "courseThemeId": 13
+        },
+        {
+            "id": 50,
+            "img": "https://img-c.udemycdn.com/course/240x135/596812_4c13_4.jpg",
+            "title": "Gestão de Projetos - Avançado",
+            "description": "André Bernardo",
+            "stars": "4,3",
+            "price": "R$ 169,90",
+            "courseThemeId": 13
+        },
+        {
+            "id": 51,
+            "img": "https://img-c.udemycdn.com/course/240x135/626022_4e17_6.jpg",
+            "title": "Fundamentos em Gestão de Projetos",
+            "description": "André Bernardo",
+            "stars": "4,4",
+            "price": "R$ 193,90",
+            "courseThemeId": 13
+        },
+        {
+            "id": 52,
+            "img": "https://img-c.udemycdn.com/course/240x135/3390504_ccc1_3.jpg",
+            "title": "Métricas para Times Ágeis",
+            "description": "Vaner Teixeira",
+            "stars": "4,4",
+            "price": "R$ 154,90",
+            "courseThemeId": 13
+        },
+        {
+            "id": 53,
+            "img": "https://img-c.udemycdn.com/course/240x135/1527754_b040_5.jpg",
+            "title": "O Guia COMPLETO Para Alta Produtividade + 4 Cursos Extras",
+            "description": "Gustavo Farias 500.000+ Alunos",
+            "stars": "4,8",
+            "price": "R$ 174,90",
+            "courseThemeId": 14
+        },
+        {
+            "id": 54,
+            "img": "https://img-c.udemycdn.com/course/240x135/641398_5f75_9.jpg",
+            "title": "Elimine a Procrastinação: Aumente sua Produtividade +...",
+            "description": "Gustavo Farias 500.000+ Alunos",
+            "stars": "4,8",
+            "price": "R$ 174,90",
+            "courseThemeId": 14
+        },
+        {
+            "id": 55,
+            "img": "https://img-c.udemycdn.com/course/240x135/1947948_7c24_7.jpg",
+            "title": "Gestão de Tempo: como aumentar sua produtividade",
+            "description": "Marcus Oliveira, Guilherme Queiroz",
+            "stars": "4,8",
+            "price": "R$ 174,90",
+            "courseThemeId": 14
+        },
+        {
+            "id": 56,
+            "img": "https://img-c.udemycdn.com/course/240x135/1692770_85c5_4.jpg",
+            "title": "Estratégias para Aumentar sua Produtividade: Guia básico",
+            "description": "Ismar Souza",
+            "stars": "4,5",
+            "price": "R$ 109,90",
+            "courseThemeId": 14
+        },
+        {
+            "id": 57,
+            "img": "https://img-c.udemycdn.com/course/240x135/833008_e3db_5.jpg",
+            "title": "INTELIGÊNCIA EMOCIONAL: Como lidar com pessoas difíceis",
+            "description": "Marcos Enes",
+            "stars": "4,6",
+            "price": "R$ 242,90",
+            "courseThemeId": 15
+        },
+        {
+            "id": 58,
+            "img": "https://img-c.udemycdn.com/course/240x135/854298_827e.jpg",
+            "title": "Como Superar Bloqueios Emocionais que Impedem a...",
+            "description": "Cassia Fernandes",
+            "stars": "4,5",
+            "price": "R$ 192,90",
+            "courseThemeId": 15
+        },
+        {
+            "id": 59,
+            "img": "https://img-c.udemycdn.com/course/240x135/3461178_74a3_4.jpg",
+            "title": "Coaching com PNL (Certificação Completa - Básico/avanç.) NPL",
+            "description": "Adriano Sugimoto",
+            "stars": "4,8",
+            "price": "R$ 174,90",
+            "courseThemeId": 15
+        },
+        {
+            "id": 60,
+            "img": "https://img-c.udemycdn.com/course/240x135/1758626_63b6_14.jpg",
+            "title": "INTELIGÊNCIA EMOCIONAL: Fundamentos e como...",
+            "description": "Rafael Tiba, Mariana Motisuke",
+            "stars": "4,7",
+            "price": "R$ 226,90",
+            "courseThemeId": 15
+        },
+        {
+            "id": 61,
+            "img": "https://img-c.udemycdn.com/course/240x135/1297062_d6cf_6.jpg",
+            "title": "Dominando a Transformação Digital",
+            "description": "Cristiane Thiel",
+            "stars": "4,6",
+            "price": "R$ 79,90",
+            "courseThemeId": 16
+        },
+        {
+            "id": 62,
+            "img": "https://img-c.udemycdn.com/course/240x135/4700466_daf6_4.jpg",
+            "title": "Transformação Digital",
+            "description": "Luiz Rasquilha",
+            "stars": "4,5",
+            "price": "R$ 399,90",
+            "courseThemeId": 16
+        },
+        {
+            "id": 63,
+            "img": "https://img-c.udemycdn.com/course/240x135/1760624_c674_4.jpg",
+            "title": "Como Desenvolver Cultura Digital",
+            "description": "Cristiane Thiel",
+            "stars": "4,6",
+            "price": "R$ 159,90",
+            "courseThemeId": 16
+        },
+        {
+            "id": 64,
+            "img": "https://img-c.udemycdn.com/course/240x135/4923732_721f_2.jpg",
+            "title": "Inteligência Aritificial Objetiva Orientação a ROI",
+            "description": "Ricardo Villaça",
+            "stars": "5,0",
+            "price": "R$ 125,90",
+            "courseThemeId": 16
+        },
+        {
+            "id": 65,
+            "img": "https://img-c.udemycdn.com/course/240x135/1341268_c20e_3.jpg",
+            "title": "Desenvolvimento Web Completo - 20 cursos + 20 projetos",
+            "description": "Jorge Sant Ana, Jamilton Damasceno",
+            "stars": "4,7",
+            "price": "R$ 175,90",
+            "courseThemeId": 17
+        },
+        {
+            "id": 66,
+            "img": "https://img-c.udemycdn.com/course/240x135/1349770_80ef.jpg",
+            "title": "Curso Desenvolvedor Web Completo + 10 de projetos.",
+            "description": "André Fontenelle",
+            "stars": "4,4",
+            "price": "R$ 199,90",
+            "courseThemeId": 17
+        },
+        {
+            "id": 67,
+            "img": "https://img-c.udemycdn.com/course/240x135/712010_9ce5_9.jpg",
+            "title": "Curso Desenvolvedor Web 2018 - Cr...",
+            "description": "Jorge Sant Ana, Jamilton Damasceno",
+            "stars": "4,5",
+            "price": "R$ 199,90",
+            "courseThemeId": 17
+        },
+        {
+            "id": 68,
+            "img": "https://img-c.udemycdn.com/course/240x135/674764_f980_6.jpg",
+            "title": "Curso Desenvolvedor Web",
+            "description": "Glaucio Daniel Souza Santos, João...",
+            "stars": "4,5",
+            "price": "R$ 189,90",
+            "courseThemeId": 17
+        },
+        {
+            "id": 69,
+            "img": "https://img-c.udemycdn.com/course/240x135/1465244_ed1a_3.jpg",
+            "title": "Curso Web Moderno Completo com JavaScript + Projetos",
+            "description": "Leonardo Moura Leitao, Cod3r Cursos...",
+            "stars": "4,7",
+            "price": "R$ 249,90",
+            "courseThemeId": 18
+        },
+        {
+            "id": 70,
+            "img": "https://img-c.udemycdn.com/course/240x135/2575266_c184_4.jpg",
+            "title": "Curso de JavaScript e TypeScript doo básico ao avançado JS/TS",
+            "description": "Luiz Otávio Miranda, Tales Calogi...",
+            "stars": "4,8",
+            "price": "R$ 229,90",
+            "courseThemeId": 18
+        },
+        {
+            "id": 71,
+            "img": "https://img-c.udemycdn.com/course/240x135/1930262_9832_2.jpg",
+            "title": "Introdução à linguagem JavaScript",
+            "description": "Diego Mariano, PhD.",
+            "stars": "4,5",
+            "price": "R$ 165,90",
+            "courseThemeId": 18
+        },
+        {
+            "id": 72,
+            "img": "https://img-c.udemycdn.com/course/240x135/896886_2822_3.jpg",
+            "title": "JavaScript - Curso COMPLETO com 6 Projetos REAIS",
+            "description": "Hcode Treinamentos, Glaucio Daniel...",
+            "stars": "4,6",
+            "price": "R$ 192,90",
+            "courseThemeId": 18
+        },
+        {
+            "id": 73,
+            "img": "https://img-c.udemycdn.com/course/240x135/1076168_b0b9_2.jpg",
+            "title": "Curso React + Redux: Fundamentos e 2 Apps do...",
+            "description": "Leonardo Moura Leitao, Cod3r Cursos...",
+            "stars": "4,7",
+            "price": "R$ 190,90",
+            "courseThemeId": 19
+        },
+        {
+            "id": 74,
+            "img": "https://img-c.udemycdn.com/course/240x135/3839636_0a4e.jpg",
+            "title": "Curso de React.Js e Next.Js (nível intermediário e avançado)",
+            "description": "Luiz Otávio Miranda, Tales Calogi...",
+            "stars": "4,7",
+            "price": "R$ 190,90",
+            "courseThemeId": 19
+        },
+        {
+            "id": 75,
+            "img": "https://img-c.udemycdn.com/course/240x135/4568186_4656.jpg",
+            "title": "React do Zero a Maestria (c/ hooks, router, API, Projetos)",
+            "description": "Matheus Battisti, Hora de Codar",
+            "stars": "4,8",
+            "price": "R$ 190,90",
+            "courseThemeId": 19
+        },
+        {
+            "id": 76,
+            "img": "https://img-c.udemycdn.com/course/240x135/2365916_6310.jpg",
+            "title": "React Js do zero ao avançado na prática",
+            "description": "Matheus Fraga",
+            "stars": "4,7",
+            "price": "R$ 190,90",
+            "courseThemeId": 19
+        },
+        {
+            "id": 77,
+            "img": "https://img-c.udemycdn.com/course/240x135/1201882_cb1e.jpg",
+            "title": "Construindo Aplicações Web com o Novo Angular (4, 5 e 6)",
+            "description": "Tarso Bessa",
+            "stars": "4,7",
+            "price": "R$ 147,90",
+            "courseThemeId": 20
+        },
+        {
+            "id": 78,
+            "img": "https://img-c.udemycdn.com/course/240x135/2140034_bbce_3.jpg",
+            "title": "Seja Full-Stack com .NET Web API e Angular + EF Core",
+            "description": "Vinicius de Andrade",
+            "stars": "4,9",
+            "price": "R$ 190,90",
+            "courseThemeId": 20
+        },
+        {
+            "id": 79,
+            "img": "https://img-c.udemycdn.com/course/240x135/2315384_fce3_4.jpg",
+            "title": "Angular 7/8 - Material Design + Node.js + MongoDB + Firebase",
+            "description": "MPro Consultoria, Desenvolvimento e...",
+            "stars": "4,7",
+            "price": "R$ 154,90",
+            "courseThemeId": 20
+        },
+        {
+            "id": 80,
+            "img": "https://img-c.udemycdn.com/course/240x135/3902998_5691_4.jpg",
+            "title": "Curso de Angular 2 (v17+) TypeScript do Básico ao Avançado",
+            "description": "Dener Troquatte",
+            "stars": "4,6",
+            "price": "R$ 190,90",
+            "courseThemeId": 20
+        },
+        {
+            "id": 81,
+            "img": "https://img-c.udemycdn.com/course/240x135/1701388_0134.jpg",
+            "title": "Java COMPLETO Programação Orientada a Objetos + Projetos",
+            "description": "Nelio Alves",
+            "stars": "4,8",
+            "price": "R$ 190,90",
+            "courseThemeId": 21
+        },
+        {
+            "id": 82,
+            "img": "https://img-c.udemycdn.com/course/240x135/870252_cf52_8.jpg",
+            "title": "Java COMPLETO: Do Zero ao Profissional + Projetos",
+            "description": "Leonardo Moura Leitao, Cod3r Cursos...",
+            "stars": "4,8",
+            "price": "R$ 221,90",
+            "courseThemeId": 21
+        },
+        {
+            "id": 83,
+            "img": "https://img-c.udemycdn.com/course/240x135/1876394_dbf0_2.jpg",
+            "title": "Programação em Java do básico ao avançado",
+            "description": "Geek University",
+            "stars": "4,6",
+            "price": "R$ 190,90",
+            "courseThemeId": 21
+        },
+        {
+            "id": 84,
+            "img": "https://img-c.udemycdn.com/course/240x135/720750_6cba_10.jpg",
+            "title": "Orientação a Objetos em JAVA",
+            "description": "Antonio B. C. Sampaio Jr",
+            "stars": "4,6",
+            "price": "R$ 189,90",
+            "courseThemeId": 21
+        },
+        {
+            "id": 85,
+            "img": "https://img-c.udemycdn.com/course/240x135/620660_4cf3_6.jpg",
+            "title": "Desenvolvimento Android 2018 - Aprenda a criar 15 apps",
+            "description": "Jamilton Damasceno",
+            "stars": "4,7",
+            "price": "R$ 235,90",
+            "courseThemeId": 22
+        },
+        {
+            "id": 86,
+            "img": "https://img-c.udemycdn.com/course/240x135/1130832_f011_7.jpg",
+            "title": "Desenvolvimento Android Completo - Crie 18 Apps",
+            "description": "Jamilton Damasceno",
+            "stars": "4,6",
+            "price": "R$ 222,90",
+            "courseThemeId": 22
+        },
+        {
+            "id": 87,
+            "img": "https://img-c.udemycdn.com/course/240x135/1764438_44b7_8.jpg",
+            "title": "Criação de Apps Android/iOS/Web com Flutter-...",
+            "description": "Daniel Ciolfi, Everton Dutra, Starttto.de...",
+            "stars": "4,7",
+            "price": "R$ 220,90",
+            "courseThemeId": 22
+        },
+        {
+            "id": 88,
+            "img": "https://img-c.udemycdn.com/course/240x135/2710728_160e_3.jpg",
+            "title": "Aprenda Flutter e Desenvolva Apps para Android e IOS",
+            "description": "Leonardo Moura Leitao, Cod3r Cursos...",
+            "stars": "4,8",
+            "price": "R$ 222,90",
+            "courseThemeId": 22
+        },
+        {
+            "id": 89,
+            "img": "https://img-c.udemycdn.com/course/240x135/3613650_1678_4.jpg",
+            "title": "Comunicação e Oratória | O Guia COMPLETO + 3 Cursos Extras",
+            "description": "Gustavo Farias 500.000+ Alunos",
+            "stars": "4,7",
+            "price": "R$ 206,90",
+            "courseThemeId": 23
+        },
+        {
+            "id": 90,
+            "img": "https://img-c.udemycdn.com/course/240x135/2072912_9a1f.jpg",
+            "title": "Curso Básico de Comunicação Interpessoal",
+            "description": "José Antônio Rosa",
+            "stars": "4,7",
+            "price": "R$ 79,90",
+            "courseThemeId": 23
+        },
+        {
+            "id": 91,
+            "img": "https://img-c.udemycdn.com/course/240x135/685304_d15d_10.jpg",
+            "title": "Como falar bem em público e fazer boas apresentações 2.0",
+            "description": "Kleber Donady, Be Able Treinamentos e...",
+            "stars": "4,6",
+            "price": "R$ 190,90",
+            "courseThemeId": 23
+        },
+        {
+            "id": 92,
+            "img": "https://img-c.udemycdn.com/course/240x135/1623956_2946_4.jpg",
+            "title": "COMUNIQUE - Curso de oratória",
+            "description": "Felipe Lima da Costa",
+            "stars": "4,6",
+            "price": "R$ 124,90",
+            "courseThemeId": 23
+        },
+        {
+            "id": 93,
+            "img": "https://img-c.udemycdn.com/course/240x135/858956_5718_3.jpg",
+            "title": "Como Criar e Apresntar Seminários e Trabalhos Escolares",
+            "description": "Ismar Souza",
+            "stars": "4,8",
+            "price": "R$ 155,90",
+            "courseThemeId": 24
+        },
+        {
+            "id": 94,
+            "img": "https://img-c.udemycdn.com/course/240x135/1905106_8d00_4.jpg",
+            "title": "Apresentação em Inglês para Iniciantes",
+            "description": "Phillipe Soares",
+            "stars": "4,6",
+            "price": "R$ 79,90",
+            "courseThemeId": 24
+        },
+        {
+            "id": 95,
+            "img": "https://img-c.udemycdn.com/course/240x135/1142034_140e_6.jpg",
+            "title": "Criando Apresentações Dinâmicas e Interativas com...",
+            "description": "Ismar Souza, Academia PowerPoint",
+            "stars": "4,5",
+            "price": "R$ 141,90",
+            "courseThemeId": 24
+        },
+        {
+            "id": 96,
+            "img": "https://img-c.udemycdn.com/course/240x135/845014_b578_3.jpg",
+            "title": "Apresentações e Slides Criativos com o Canva",
+            "description": "Leila Adriano Ostoyke, Digital sem...",
+            "stars": "4,7",
+            "price": "R$ 151,90",
+            "courseThemeId": 24
+        },
+        {
+            "id": 97,
+            "img": "https://img-c.udemycdn.com/course/240x135/2576902_7f74_2.jpg",
+            "title": "Oratória e Palestra de Alto Impacto | COMPLETO | Sem medo",
+            "description": "Adriano Sugimoto",
+            "stars": "4,7",
+            "price": "R$ 198,90",
+            "courseThemeId": 25
+        },
+        {
+            "id": 98,
+            "img": "https://img-c.udemycdn.com/course/240x135/3207549_201d_2.jpg",
+            "title": "Curso completo para falar em público e fazer apresentações",
+            "description": "Alex Oliveira",
+            "stars": "4,5",
+            "price": "R$ 160,90",
+            "courseThemeId": 25
+        },
+        {
+            "id": 99,
+            "img": "https://img-c.udemycdn.com/course/240x135/1663412_fad3_5.jpg",
+            "title": "Oratória e Comunicação (como expor suas ideias em público)",
+            "description": "Fabio Blanco",
+            "stars": "4,5",
+            "price": "R$ 183,90",
+            "courseThemeId": 25
+        },
+        {
+            "id": 100,
+            "img": "https://img-c.udemycdn.com/course/240x135/2166960_2df8_2.jpg",
+            "title": "Oratória e Formação de Palestrantes",
+            "description": "Kadu Santos",
+            "stars": "4,8",
+            "price": "R$ 181,90",
+            "courseThemeId": 25
+        },
+        {
+            "id": 101,
+            "img": "https://img-c.udemycdn.com/course/240x135/927718_31c5_2.jpg",
+            "title": "Curso Completo de Como Escrever Bem",
+            "description": "Álvaro Vieira",
+            "stars": "4,5",
+            "price": "R$ 79,90",
+            "courseThemeId": 26
+        },
+        {
+            "id": 102,
+            "img": "https://img-c.udemycdn.com/course/240x135/927134_eae8_4.jpg",
+            "title": "Curso Prático de Redação para Concursos e Vestibulares",
+            "description": "Ismar Souza",
+            "stars": "4,5",
+            "price": "R$ 135,90",
+            "courseThemeId": 26
+        },
+        {
+            "id": 103,
+            "img": "https://img-c.udemycdn.com/course/240x135/725582_5190_3.jpg",
+            "title": "Criatividade para Redação Web",
+            "description": "ComSchool Cursos",
+            "stars": "4,2",
+            "price": "R$ 79,90",
+            "courseThemeId": 26
+        },
+        {
+            "id": 104,
+            "img": "https://img-c.udemycdn.com/course/240x135/2445446_93a1.jpg",
+            "title": "Introdução à Estratégia e Redação Publicitária (Copywriting)",
+            "description": "José Antônio Rosa",
+            "stars": "4,6",
+            "price": "R$ 131,90",
+            "courseThemeId": 26
+        },
+        {
+            "id": 105,
+            "img": "https://img-c.udemycdn.com/course/240x135/1437302_96a6_6.jpg",
+            "title": "Curso Better PPT: Crie Apresentações PowerPoint que...",
+            "description": "Paulo Andrade, PhD +470.000 Alunos",
+            "stars": "4,7",
+            "price": "R$ 174,90",
+            "courseThemeId": 27
+        },
+        {
+            "id": 106,
+            "img": "https://img-c.udemycdn.com/course/240x135/1555824_b87d.jpg",
+            "title": "Curso Completo de PowerPoint - Super Didático",
+            "description": "Rafael Avila",
+            "stars": "4,4",
+            "price": "R$ 168,90",
+            "courseThemeId": 27
+        },
+        {
+            "id": 107,
+            "img": "https://img-c.udemycdn.com/course/240x135/1917106_438d.jpg",
+            "title": "Microsoft PowerPoint Super Completo do Básico ao Avançado",
+            "description": "Ricardo Oliveira Cunha",
+            "stars": "4,8",
+            "price": "R$ 193,90",
+            "courseThemeId": 27
+        },
+        {
+            "id": 108,
+            "img": "https://img-c.udemycdn.com/course/240x135/1120656_685a.jpg",
+            "title": "PowerPoint Completo | Crie Apresentações Profissionais",
+            "description": "Bowtie Training Center",
+            "stars": "4,6",
+            "price": "R$ 131,90",
+            "courseThemeId": 27
+        },
+        {
+            "id": 109,
+            "img": "https://img-c.udemycdn.com/course/240x135/985328_7c40_3.jpg",
+            "title": "Analysis PRO: Realize um diagnóstico de comunicação e...",
+            "description": "Christian H. Mendes",
+            "stars": "4,6",
+            "price": "R$ 79,90",
+            "courseThemeId": 28
+        },
+        {
+            "id": 110,
+            "img": "https://img-c.udemycdn.com/course/240x135/3427630_78c3.jpg",
+            "title": "Redação Estratégica Empresarial",
+            "description": "Cristina Vieira de Souza",
+            "stars": "4,6",
+            "price": "R$ 147,90",
+            "courseThemeId": 28
+        },
+        {
+            "id": 111,
+            "img": "https://img-c.udemycdn.com/course/240x135/2373356_f01b.jpg",
+            "title": "Comunicação Para Negócios",
+            "description": "Diego Mangabeira",
+            "stars": "4,3",
+            "price": "R$ 100,90",
+            "courseThemeId": 28
+        },
+        {
+            "id": 112,
+            "img": "https://img-c.udemycdn.com/course/240x135/5210706_fb89.jpg",
+            "title": "Especialista em Comunicação Assertiva para Lideres +5 EXTRAS",
+            "description": "Bruno Estéfan Perego 10.000+ Alunos",
+            "stars": "4,2",
+            "price": "R$ 79,90",
+            "courseThemeId": 28
+        },
+        {
+            "id": 113,
+            "img": "https://img-c.udemycdn.com/course/240x135/566284_7465_2.jpg",
+            "title": "Do Básico ao Avançado - O Curso Completo de Microsoft Excel",
+            "description": "João Paulo de Lira",
+            "stars": "4,8",
+            "price": "R$ 190,90",
+            "courseThemeId": 29
+        },
+        {
+            "id": 114,
+            "img": "https://img-c.udemycdn.com/course/240x135/2365840_bd05_5.jpg",
+            "title": "Curso Excel COMPLETO do Básico ao Avançado",
+            "description": "Nelio Alves, Bruno Roberto Martins...",
+            "stars": "4,8",
+            "price": "R$ 174,90",
+            "courseThemeId": 29
+        },
+        {
+            "id": 115,
+            "img": "https://img-c.udemycdn.com/course/240x135/1680824_fe2d_12.jpg",
+            "title": "Excel Básico Avançado 5 Cursos - Formação Especialista",
+            "description": "Jilson Santana",
+            "stars": "4,7",
+            "price": "R$ 278,90",
+            "courseThemeId": 29
+        },
+        {
+            "id": 116,
+            "img": "https://img-c.udemycdn.com/course/240x135/3349694_6349_5.jpg",
+            "title": "Curso de Excel do Básico ao Avançado, Macro e VBA + Power...",
+            "description": "Clevison Santos",
+            "stars": "4,8",
+            "price": "R$ 182,90",
+            "courseThemeId": 29
+        },
+        {
+            "id": 117,
+            "img": "https://img-c.udemycdn.com/course/240x135/860444_34ed_42.jpg",
+            "title": "O curso completo do Banco de Dados e SQL, sem mistérios!",
+            "description": "Felipe Mafra",
+            "stars": "4,7",
+            "price": "R$ 211,90",
+            "courseThemeId": 30
+        },
+        {
+            "id": 118,
+            "img": "https://img-c.udemycdn.com/course/240x135/4406250_4fe2.jpg",
+            "title": "SQL para Análise de Dados: Do básico ao avançado",
+            "description": "Midori Toyota",
+            "stars": "4,8",
+            "price": "R$ 190,90",
+            "courseThemeId": 30
+        },
+        {
+            "id": 119,
+            "img": "https://img-c.udemycdn.com/course/240x135/4181824_b366_4.jpg",
+            "title": "Banco de Dados SQL do Zero ao Avançado + Projetos Reais",
+            "description": "Andre Iacono | 325000+ Students",
+            "stars": "4,8",
+            "price": "R$ 190,90",
+            "courseThemeId": 30
+        },
+        {
+            "id": 120,
+            "img": "https://img-c.udemycdn.com/course/240x135/669012_eb3d_2.jpg",
+            "title": "Aprenda SQL do Zero!",
+            "description": "Tiago Bacciotti Moreira, Lucas Bacciotti...",
+            "stars": "4,5",
+            "price": "R$ 190,90",
+            "courseThemeId": 30
+        },
+        {
+            "id": 121,
+            "img": "https://img-c.udemycdn.com/course/240x135/1995622_8cbf_3.jpg",
+            "title": "Power BI Completo - Do Básico ao Avançado",
+            "description": "João Paulo de Lira",
+            "stars": "4,7",
+            "price": "R$ 216,90",
+            "courseThemeId": 31
+        },
+        {
+            "id": 122,
+            "img": "https://img-c.udemycdn.com/course/240x135/2467412_c3ac_15.jpg",
+            "title": "Master Power BI - De A à Z",
+            "description": "Felipe Mafra",
+            "stars": "4,7",
+            "price": "R$ 190,90",
+            "courseThemeId": 31
+        },
+        {
+            "id": 123,
+            "img": "https://img-c.udemycdn.com/course/240x135/3566849_9263_10.jpg",
+            "title": "Formação Microsoft Power BI Profissional",
+            "description": "Andre Rosa",
+            "stars": "4,7",
+            "price": "R$ 190,90",
+            "courseThemeId": 31
+        },
+        {
+            "id": 124,
+            "img": "https://img-c.udemycdn.com/course/240x135/4880386_8436_2.jpg",
+            "title": "Power BI Fundamental - Do Básico ao Avançado",
+            "description": "Stefano Larmelina",
+            "stars": "4,5",
+            "price": "R$ 176,90",
+            "courseThemeId": 31
+        },
+        {
+            "id": 125,
+            "img": "https://img-c.udemycdn.com/course/240x135/2268370_615e_3.jpg",
+            "title": "Python para Finanças: Investimentos & Análise de Dados",
+            "description": "365 Careers, Erich Ratzat",
+            "stars": "4,5",
+            "price": "R$ 215,90",
+            "courseThemeId": 32
+        },
+        {
+            "id": 126,
+            "img": "https://img-c.udemycdn.com/course/240x135/3096958_7c6a.jpg",
+            "title": "Estatísticas para análise de dados usando Excel",
+            "description": "Guilherme Queiroz, Marcus Oliveira",
+            "stars": "4,5",
+            "price": "R$ 79,90",
+            "courseThemeId": 32
+        },
+        {
+            "id": 127,
+            "img": "https://img-c.udemycdn.com/course/240x135/3615068_775a.jpg",
+            "title": "Python para Finanças: Análise de Dados e Machine Learning",
+            "description": "Jones Granatyr, IA Expert Academy",
+            "stars": "4,9",
+            "price": "R$ 211,90",
+            "courseThemeId": 32
+        },
+        {
+            "id": 128,
+            "img": "https://img-c.udemycdn.com/course/240x135/2354218_a29e_2.jpg",
+            "title": "Manipulação e Análise de Dados com Pandas - Python",
+            "description": "Rafael F.V.C Santos, Ph.D.",
+            "stars": "4,5",
+            "price": "R$ 190,90",
+            "courseThemeId": 32
+        },
+        {
+            "id": 129,
+            "img": "https://img-c.udemycdn.com/course/240x135/1896440_ba0c_6.jpg",
+            "title": "Administração de Empresas",
+            "description": "Daiane Queiros Marques da Silva",
+            "stars": "4,5",
+            "price": "R$ 151,90",
+            "courseThemeId": 33
+        },
+        {
+            "id": 130,
+            "img": "https://img-c.udemycdn.com/course/240x135/1300540_56fa_3.jpg",
+            "title": "Formação em Análise de Negócios com base no Guia BABOK v3",
+            "description": "Fabrício Laguna",
+            "stars": "4,9",
+            "price": "R$ 399,90",
+            "courseThemeId": 33
+        },
+        {
+            "id": 131,
+            "img": "https://img-c.udemycdn.com/course/240x135/1780268_005b_3.jpg",
+            "title": "Requisitos",
+            "description": "Fabrício Laguna",
+            "stars": "4,8",
+            "price": "R$ 399,90",
+            "courseThemeId": 33
+        },
+        {
+            "id": 132,
+            "img": "https://img-c.udemycdn.com/course/240x135/425450_bbc7.jpg",
+            "title": "Analista Ágil: Como Ser Ágil em 10 Passos",
+            "description": "Fernando Faganello",
+            "stars": "4,5",
+            "price": "R$ 175,90",
+            "courseThemeId": 33
+        },
+        {
+            "id": 133,
+            "img": "https://img-c.udemycdn.com/course/240x135/2221810_67bb_4.jpg",
+            "title": "Tableau de A a Z - Modulo I - Business Analytics",
+            "description": "Fernando Luiz Fontes de Castro",
+            "stars": "4,8",
+            "price": "R$ 172,90",
+            "courseThemeId": 34
+        },
+        {
+            "id": 134,
+            "img": "https://img-c.udemycdn.com/course/240x135/2303136_26af_3.jpg",
+            "title": "Tableau Desktop Intermediário",
+            "description": "Fernando Luiz Fontes de Castro",
+            "stars": "4,7",
+            "price": "R$ 166,90",
+            "courseThemeId": 34
+        },
+        {
+            "id": 135,
+            "img": "https://img-c.udemycdn.com/course/240x135/1823164_f45b_5.jpg",
+            "title": "Tableau Master Class Completo - Aprenda fazendo 2024",
+            "description": "Julian Cassimiro | 5.000+ Alunos",
+            "stars": "4,6",
+            "price": "R$ 174,90",
+            "courseThemeId": 34
+        },
+        {
+            "id": 136,
+            "img": "https://img-c.udemycdn.com/course/240x135/1136956_45d3_19.jpg",
+            "title": "Business Intelligence com Tableau Desktop",
+            "description": "Felipe Mafra",
+            "stars": "4,3",
+            "price": "R$ 123,90",
+            "courseThemeId": 34
+        },
+        {
+            "id": 137,
+            "img": "https://img-c.udemycdn.com/course/240x135/4898958_8e86_2.jpg",
+            "title": "Masterclass - Visualização de Dados | Especial Eleições",
+            "description": "Data V, Odemir Depieri Jr",
+            "stars": "4,8",
+            "price": "R$ 106,90",
+            "courseThemeId": 35
+        },
+        {
+            "id": 138,
+            "img": "https://img-c.udemycdn.com/course/240x135/4887012_1814_3.jpg",
+            "title": "METABASE: Vá do ZERO ao Avançado! Completo 2025",
+            "description": "Gabriel Santos da Silva",
+            "stars": "4,7",
+            "price": "R$ 174,90",
+            "courseThemeId": 35
+        },
+        {
+            "id": 139,
+            "img": "https://img-c.udemycdn.com/course/240x135/1382198_3795_3.jpg",
+            "title": "Visualização de Dados para Data Science no R (Gráficos)",
+            "description": "Isaias Lira",
+            "stars": "4,5",
+            "price": "R$ 230,90",
+            "courseThemeId": 35
+        },
+        {
+            "id": 140,
+            "img": "https://img-c.udemycdn.com/course/240x135/1541590_515a.jpg",
+            "title": "Visualização de dados para Data Science com R: Criando Mapas",
+            "description": "Isaias Lira",
+            "stars": "4,6",
+            "price": "R$ 200,90",
+            "courseThemeId": 35
         }
     ]
 }

@@ -28,26 +28,22 @@ export const ButtonsContainer = styled.div`
     gap: 1.5rem;
 
     border-bottom: 1px solid ${props => props.theme['gray-200']};
+`;
 
-    button {
+export const StyledButton = styled.button<{ selected: boolean }>`
         border: 0;
         font-weight: bold;
         padding-bottom: 1rem;
 
         background: ${props => props.theme['gray-100']};
-        color: ${props => props.theme['gray-350']};
+        color: ${({ selected }) => (selected ? '#303141' : '#6f7390')};
+        border-bottom: ${({ selected }) => (selected ? '2px solid #303141' : '2x solid transparent')};
 
         cursor: pointer;
 
         &:hover {
             color: ${props => props.theme['gray-500']};
         }
-
-        &:focus {
-            color: ${props => props.theme['gray-500']};
-            border-bottom: 2px solid ${props => props.theme['gray-500']};
-        }
-    }
 `;
 
 export const SliderContainer = styled.div`
@@ -65,7 +61,7 @@ export const ButtonsListContainer = styled.div`
     gap: 1rem;
 `;
 
-export const ButtonSlider = styled.button`
+export const ButtonSlider = styled.button<{ selected: boolean }>`
     max-width: fit-content;
     display: flex;
     text-align: left;
@@ -75,29 +71,21 @@ export const ButtonSlider = styled.button`
     border: 0;
     border-radius: 50px;
     cursor: pointer;
-    background: ${props => props.theme['gray-200']};
+    background: ${({ selected }) => (selected ? '#303141' : '#d1d2e0')};
 
     strong {
         font-size: 1rem;
         font-weight: bold;
-        color: ${props => props.theme['gray-500']};
+        color: ${({ selected }) => (selected ? '#f6f7f9' : '#303141')};
     }
     
     span {
         font-size: 0.75rem;
-        color: ${props => props.theme['gray-400']};
+        color: ${({ selected }) => (selected ? '#d1d2e0' : '#303141')};
     }
 
     &:hover {
         background: ${props => props.theme['gray-300']};
-    }
-
-    &:focus {
-        strong, span {
-            color: ${props => props.theme['gray-100']};
-        }
-        
-        background: ${props => props.theme['gray-500']};
     }
 `;
 
