@@ -117,7 +117,7 @@ export function Carousel() {
                         )
                     })}
                 </CoursesContainer>
-                <Button>Mostrar todos os cursos de Data Science</Button>
+                <Button href="/" target='_blank'>Mostrar todos os cursos</Button>
             </SliderContainer>
         </CarouselContainer>
     )
