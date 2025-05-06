@@ -36,6 +36,11 @@ export const AuthFormContainer = styled.div`
     }
 `;
 
+export const Line = styled.div`
+    font-size: 0.875rem;
+    color: ${props => props.theme['gray-350']};
+`;
+
 export const TermsContainer = styled.div`
     font-size: 0.75rem;
 `;

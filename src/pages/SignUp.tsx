@@ -1,4 +1,15 @@
-import { AuthFormContainer, ButtonSubmit, Checkbox, ImageContainer, InputLabel, SignIn, SignUpContainer, SocialIconContainer, TermsContainer } from '../styles/sign-up'
+import { 
+    AuthFormContainer, 
+    ButtonSubmit, 
+    Checkbox, 
+    ImageContainer, 
+    InputLabel, 
+    Line, 
+    SignIn, 
+    SignUpContainer, 
+    SocialIconContainer, 
+    TermsContainer 
+} from '../styles/sign-up'
 import { EnvelopeSimple } from 'phosphor-react'
 import ilustrationImg from '../assets/desktop-illustration.webp'
 import googleImg from '../assets/icons/google.svg'
@@ -25,7 +36,7 @@ export function SignUp() {
                     <span>Continuar com e-mail</span>
                 </ButtonSubmit>
 
-                <span>Outras opções de inscrição</span>               
+                <Line>━━━━━━━ Outras opções de inscrição ━━━━━━━</Line>    
 
                 <SocialIconContainer>
                     <button>
