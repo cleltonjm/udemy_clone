@@ -15,6 +15,7 @@ import ilustrationImg from '../assets/desktop-illustration.webp'
 import googleImg from '../assets/icons/google.svg'
 import facebookImg from '../assets/icons/facebook.svg'
 import appleImg from '../assets/icons/apple.svg'
+import { NavLink } from 'react-router-dom'
 
 export function SignUp() {
     return (
@@ -52,7 +53,7 @@ export function SignUp() {
 
                 <TermsContainer>Ao se inscrever, você concorda com nossos <a>Termo de Uso</a> e com a <a>Política de Privacidade.</a></TermsContainer>
 
-                <SignIn>Já tem uma conta? <a>Fazer login</a></SignIn>
+                <SignIn>Já tem uma conta? <NavLink to="/sign-in">Fazer login</NavLink></SignIn>
 
             </AuthFormContainer>
         </SignUpContainer>
